@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using OrderingAPI.Model;
@@ -20,10 +21,13 @@ namespace OrderingAPI.Controllers
     [ApiController]
     public class OrderingController : ControllerBase
     {
-        public OrderingController()
+        private readonly ILogger<OrderingController> _logger;
+
+        public OrderingController(ILogger<OrderingController> logger)
         {
-            ///bool v = Request.Headers.TryGetValue("Authorization", out var traceValue);
+            _logger = logger;
         }
+
         public string jsonSring_ = @"{  ""stores"": [    {      ""city"": ""Bangalore"",      ""name"": ""Koramanagala"",      ""ref_id"": ""5916020-QETWW6521""    }  ]}";
         public string jdata_ = @"{	  ""stores"": [    {      ""city"": ""Bangalore"",      ""name"": ""Koramanagala"",      ""min_pickup_time"": 900,      ""min_delivery_time"": 1800,      ""contact_phone"": ""9999999999"",      ""notification_phones"": [        ""+919999999999"",        ""8888888888""      ],      ""ref_id"": ""5916020-QETWW6521"",      ""min_order_value"": 200,      ""hide_from_ui"": false,      ""address"": ""2nd Cross 5th Main"",      ""notification_emails"": [        ""b1@mail.com"",        ""b2@mail.com""      ],      ""zip_codes"": [        ""560033"",        ""560022""      ],      ""geo_longitude"": 22.234324,      ""active"": true,      ""geo_latitude"": 19.12312,      ""ordering_enabled"": true,      ""translations"": [        {          ""language"": ""fr"",          ""name"": ""Koramanagala""        }      ],      ""excluded_platforms"": [        ""swiggy"",        ""scootsy""      ],      ""platform_data"": [        {          ""name"": ""zomato"",          ""url"": ""https://www.zomato.com/bangalore/cakes-sweets/order"",          ""platform_store_id"": ""535678588""        }      ],      ""timings"": [        {          ""day"": ""monday"",          ""slots"": [            {              ""start_time"": ""10:00:00"",              ""end_time"": ""22:30:00""            }          ]        },        {          ""day"": ""tuesday"",          ""slots"": [            {              ""start_time"": ""10:00:00"",              ""end_time"": ""22:30:00""            }          ]        }      ]    },    {      ""city"": ""delhi"",      ""name"": ""Connaught Place"",      ""min_pickup_time"": 900,      ""min_delivery_time"": 1800,      ""contact_phone"": ""+919999999999"",      ""notification_phones"": [        ""9999999999"",        ""+918888888888""      ],      ""ref_id"": ""6906-45r7-f7u3-3645"",      ""min_order_value"": 200,      ""hide_from_ui"": false,      ""address"": ""Sector 21, D - block"",      ""notification_emails"": [        ""d1@mail.com"",        ""d2@mail.com""      ],      ""zip_codes"": [        ""110021"",        ""2312323""      ],      ""geo_longitude"": 22.234324,      ""active"": false,      ""geo_latitude"": 19.12312,      ""ordering_enabled"": true,      ""translations"": [        {          ""language"": ""fr"",          ""name"": ""Connaught Place""        }      ],      ""included_platforms"": [        ""swiggy""      ],      ""platform_data"": [        {          ""name"": ""swiggy"",          ""url"": ""https://www.swiggy.com/restaurants/cakes-sweets-connaught-place-5567"",          ""platform_store_id"": ""5567""        }      ]    }  ]}";
         public string URL = "https://pos-int.urbanpiper.com/";
@@ -68,6 +72,8 @@ namespace OrderingAPI.Controllers
         [Route("Stores")]
         public async Task<IActionResult> Stores(StoreRequest storeRequest)
         {
+            _logger.LogInformation($"HomeController.Stores Method");
+
             return await PostApi_HttpClient($"{URL}external/api/v1/stores/", Helper.SerializeObject(storeRequest));
         }
 
@@ -128,20 +134,24 @@ namespace OrderingAPI.Controllers
         }
         private async Task<IActionResult> PostApi_HttpClient(string Url, String JsonRequest)
         {
+            _logger.LogInformation($"HomeController.PostApi_HttpClient method Complete");
+            _logger.LogInformation($"URL:{Url}, Request-{JsonRequest}");
+
             Request.Headers.TryGetValue("Authorization", out var accessToken);
 
             if( string.IsNullOrEmpty(accessToken) || !accessToken.ToString().Contains("apikey"))
             {
-                return BadRequest("apikey not found.");
+                _logger.LogInformation($"Error:Apikey not found");
+                return BadRequest("Apikey not found.");
             }
 
             StringContent data = new StringContent(JsonRequest, Encoding.UTF8, "application/json");
 
-            var client = new HttpClient();
-            client.DefaultRequestHeaders.Add("Authorization", accessToken.ToString());
-            var res = await client.PostAsync(Url, data);
-            string result = await res.Content.ReadAsStringAsync();
-            client.Dispose();
+            //var client = new HttpClient();
+            //client.DefaultRequestHeaders.Add("Authorization", accessToken.ToString());
+            //var res = await client.PostAsync(Url, data);
+            //string result = await res.Content.ReadAsStringAsync();
+            //client.Dispose();
 
             using (var httpClient = new HttpClient())
             {
@@ -153,14 +163,19 @@ namespace OrderingAPI.Controllers
                         if (response.StatusCode == System.Net.HttpStatusCode.OK)
                         {
                             string apiResponse = await response.Content.ReadAsStringAsync();
+                            _logger.LogInformation($"Success Responce-{response}");
                             return Ok(apiResponse);
                         }
                         else
+                        {
+                            _logger.LogInformation($"Fail Responce-{response}");
                             return BadRequest(response);
+                        }
                     }
                 }
                 catch (Exception e)
                 {
+                    _logger.LogInformation($"Error Responce-{e}");
                     return BadRequest(e);
                 }
             }

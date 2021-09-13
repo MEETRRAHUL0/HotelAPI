@@ -28,3 +28,7 @@ C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\obj\Debug\net5.0\ref\Orderi
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\obj\Debug\net5.0\OrderingAPI.pdb
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\obj\Debug\net5.0\OrderingAPI.genruntimeconfig.cache
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\nlog.config
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll

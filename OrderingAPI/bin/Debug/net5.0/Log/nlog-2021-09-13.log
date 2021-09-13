@@ -1,0 +1,253 @@
+2021-09-13 16:37:58.9550||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-13 16:37:59.0626||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-09-13 16:37:59.0955||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI 
+2021-09-13 16:38:11.6930||INFO|OrderingAPI.Controllers.OrderingController|HomeController.Stores Method 
+2021-09-13 16:38:12.6669||INFO|OrderingAPI.Controllers.OrderingController|HomeController.PostApi_HttpClient method Complete 
+2021-09-13 16:38:12.6669||INFO|OrderingAPI.Controllers.OrderingController|URL:https://pos-int.urbanpiper.com/external/api/v1/stores/, Request-{
+  "stores": [
+    {
+      "city": "string",
+      "name": "string",
+      "min_pickup_time": 0,
+      "min_delivery_time": 0,
+      "contact_phone": "string",
+      "notification_phones": [
+        "string"
+      ],
+      "ref_id": "string",
+      "min_order_value": 0,
+      "hide_from_ui": true,
+      "address": "string",
+      "notification_emails": [
+        "string"
+      ],
+      "zip_codes": [
+        "string"
+      ],
+      "geo_longitude": 0.0,
+      "active": true,
+      "geo_latitude": 0.0,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "string",
+          "name": "string"
+        }
+      ],
+      "excluded_platforms": [
+        "string"
+      ],
+      "platform_data": [
+        {
+          "name": "string",
+          "url": "string",
+          "platform_store_id": "string"
+        }
+      ],
+      "timings": [
+        {
+          "day": "string",
+          "slots": [
+            {
+              "start_time": "string",
+              "end_time": "string"
+            }
+          ]
+        }
+      ],
+      "included_platforms": [
+        "string"
+      ]
+    }
+  ]
+} 
+2021-09-13 16:38:12.6669||INFO|OrderingAPI.Controllers.OrderingController|apikey not found 
+2021-09-13 16:38:23.4295||INFO|OrderingAPI.Controllers.OrderingController|HomeController.PostApi_HttpClient method Complete 
+2021-09-13 16:38:23.4349||INFO|OrderingAPI.Controllers.OrderingController|URL:https://pos-int.urbanpiper.com/external/api/v1/stores/, Request-{
+  "stores": [
+    {
+      "city": "string",
+      "name": "string",
+      "min_pickup_time": 0,
+      "min_delivery_time": 0,
+      "contact_phone": "string",
+      "notification_phones": [
+        "string"
+      ],
+      "ref_id": "string",
+      "min_order_value": 0,
+      "hide_from_ui": true,
+      "address": "string",
+      "notification_emails": [
+        "string"
+      ],
+      "zip_codes": [
+        "string"
+      ],
+      "geo_longitude": 0.0,
+      "active": true,
+      "geo_latitude": 0.0,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "string",
+          "name": "string"
+        }
+      ],
+      "excluded_platforms": [
+        "string"
+      ],
+      "platform_data": [
+        {
+          "name": "string",
+          "url": "string",
+          "platform_store_id": "string"
+        }
+      ],
+      "timings": [
+        {
+          "day": "string",
+          "slots": [
+            {
+              "start_time": "string",
+              "end_time": "string"
+            }
+          ]
+        }
+      ],
+      "included_platforms": [
+        "string"
+      ]
+    }
+  ]
+} 
+2021-09-13 16:38:23.4349||INFO|OrderingAPI.Controllers.OrderingController|apikey not found 
+2021-09-13 16:40:10.4256||INFO|OrderingAPI.Controllers.OrderingController|HomeController.Stores Method 
+2021-09-13 16:40:10.4310||INFO|OrderingAPI.Controllers.OrderingController|HomeController.PostApi_HttpClient method Complete 
+2021-09-13 16:40:10.4310||INFO|OrderingAPI.Controllers.OrderingController|URL:https://pos-int.urbanpiper.com/external/api/v1/stores/, Request-{
+  "stores": [
+    {
+      "city": "Bangalore",
+      "name": "Koramanagala new",
+      "min_pickup_time": 900,
+      "min_delivery_time": 1800,
+      "contact_phone": "9999999999",
+      "notification_phones": [
+        "+919999999999",
+        "8888888888"
+      ],
+      "ref_id": "5916020-QETWW6521new",
+      "min_order_value": 200,
+      "hide_from_ui": false,
+      "address": "2nd Cross 5th Main",
+      "notification_emails": [
+        "b1@mail.com",
+        "b2@mail.com"
+      ],
+      "zip_codes": [
+        "560033",
+        "560022"
+      ],
+      "geo_longitude": 22.234324,
+      "active": true,
+      "geo_latitude": 19.12312,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "fr",
+          "name": "Koramanagala"
+        }
+      ],
+      "excluded_platforms": [
+        "swiggy"
+      ],
+      "platform_data": [
+        {
+          "name": "zomato",
+          "url": "https://www.zomato.com/bangalore/cakes-sweets/order",
+          "platform_store_id": "535678588"
+        }
+      ],
+      "timings": [
+        {
+          "day": "monday",
+          "slots": [
+            {
+              "start_time": "10:00:00",
+              "end_time": "22:30:00"
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "slots": [
+            {
+              "start_time": "10:00:00",
+              "end_time": "22:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "delhi",
+      "name": "Connaught Place",
+      "min_pickup_time": 900,
+      "min_delivery_time": 1800,
+      "contact_phone": "+919999999999",
+      "notification_phones": [
+        "9999999999",
+        "+918888888888"
+      ],
+      "ref_id": "6906-45r7-f7u3-3645",
+      "min_order_value": 200,
+      "hide_from_ui": false,
+      "address": "Sector 21, D - block",
+      "notification_emails": [
+        "d1@mail.com",
+        "d2@mail.com"
+      ],
+      "zip_codes": [
+        "110021",
+        "2312323"
+      ],
+      "geo_longitude": 22.234324,
+      "active": false,
+      "geo_latitude": 19.12312,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "fr",
+          "name": "Connaught Place"
+        }
+      ],
+      "platform_data": [
+        {
+          "name": "swiggy",
+          "url": "https://www.swiggy.com/restaurants/cakes-sweets-connaught-place-5567",
+          "platform_store_id": "5567"
+        }
+      ],
+      "included_platforms": [
+        "swiggy"
+      ]
+    }
+  ]
+} 
+2021-09-13 16:40:12.5174||INFO|OrderingAPI.Controllers.OrderingController|Success Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Mon, 13 Sep 2021 11:10:52 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=et8rRP%2F9%2BnVyeFo0kq8wM8rpNXXFAIqpmO%2FBxjLcLqS%2F58jPvbTG5WOsorl7SP9kjvJlotQ6dtKAnlIV9DhYn9fBHoUTYtHF8vZmxIXbx%2FoXLog6W8OEgP8g7jdWtm7egNI77fIhxH8%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 68e0ee778a3d2548-SJC
+  Content-Type: application/json
+} 

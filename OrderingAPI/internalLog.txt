@@ -1,0 +1,7 @@
+2021-09-13 16:37:58.2940 Info Message Template Auto Format enabled
+2021-09-13 16:37:58.3349 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-13 16:37:58.4184 Info Adding target FileTarget(Name=alldata)
+2021-09-13 16:37:58.4184 Info Adding target FileTarget(Name=otherFile-web)
+2021-09-13 16:37:58.4721 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-09-13 16:37:58.5078 Info Configuration initialized.
+2021-09-13 16:37:58.5093 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
