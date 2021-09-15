@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using OrderingAPI.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,12 +22,23 @@ namespace OrderingAPI.Controllers
             _logger = logger;
         }
 
-        [Route("CreateUpdateStores")]
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("CreateUpdateStores")]
+        public IActionResult CreateUpdateStores(StoreCallBack value)
         {
-            _logger.LogInformation("HomeController.Index method called!!!");
-            var t = Request.Headers;
+            // TODO- how we will authanticate the call, that its comming from right place ?
+            // they are doing multipla call to this API withing ine min, how to manage that multipla call ?
+
+            _logger.LogInformation("WebHookCallBackController.CreateUpdateStores method called!!!");
+            var header = JsonConvert.SerializeObject(Request.Headers);
+            var res = JsonConvert.SerializeObject(value);
+            Request.Headers.TryGetValue("Authorization", out var accessToken);
+
+            _logger.LogInformation($"CreateUpdateStores Header : {header}");
+            _logger.LogInformation($"CreateUpdateStores Responce : {res}");
+            _logger.LogInformation($"CreateUpdateStores Authorization : {accessToken}");
+
+            return Ok("Success");
         }
     }
 }

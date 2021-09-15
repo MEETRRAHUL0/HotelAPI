@@ -19,11 +19,11 @@ namespace OrderingAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OrderingController : ControllerBase
+    public class ConfigurationController : ControllerBase
     {
-        private readonly ILogger<OrderingController> _logger;
+        private readonly ILogger<ConfigurationController> _logger;
 
-        public OrderingController(ILogger<OrderingController> logger)
+        public ConfigurationController(ILogger<ConfigurationController> logger)
         {
             _logger = logger;
         }
@@ -78,8 +78,8 @@ namespace OrderingAPI.Controllers
         }
 
         [HttpPost]
-        [Route("catalogue")]
-        public async Task<IActionResult> catalogue(string location_ref_id, CatalogueRequest catalogueRequest)
+        [Route("Catalogue")]
+        public async Task<IActionResult> Catalogue(string location_ref_id, CatalogueRequest catalogueRequest)
         {
             return await PostApi_HttpClient($"{URL}external/api/v1/inventory/locations/{location_ref_id}/", Helper.SerializeObject(catalogueRequest));
         }
