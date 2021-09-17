@@ -1,0 +1,1516 @@
+2021-09-17 00:34:36.9705||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:34:53.1665||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:34:53.1665||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:06.1554||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 42 |url: |action: 
+2021-09-17 00:35:06.1554||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 42 |url: |action: 
+2021-09-17 00:35:06.1554||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 42 |url: |action: 
+2021-09-17 00:35:34.8069||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:35:34.8462||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 40 |url: |action: 
+2021-09-17 00:35:49.4929||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:51.1543||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:51.1658||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["14"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Event-Type":["60014"]} |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:51.1658||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["14"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Event-Type":["60014"]} |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:51.1658||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":null,"stats":null,"stores":[]} |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:51.1658||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":null,"stats":null,"stores":[]} |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:35:52.4140||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:36:25.6391||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:36:27.1967||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:36:28.9640||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:36:30.5938||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:36:31.7527||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 40 |url: |action: 
+2021-09-17 00:36:34.0182||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 40 |url: |action: 
+2021-09-17 00:36:34.0182||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Error : System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at OrderingAPI.Controllers.WebHookCallBackController.<>c__DisplayClass2_0.<StoresAddUpdate>b__0(Object wi) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookCallBackController.cs:line 40 |url: |action: 
+2021-09-17 00:40:18.7957||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:43:18.7174||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:43:28.0099||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["253"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Checksum":["82cab24f90edcc46b430146d93545f59"],"X-Upr-Event-Type":["60014"]} |url: |action: 
+2021-09-17 00:43:28.0099||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":"7a2c06c05c844d20a135d6fab797f09c","stats":{"updated":1,"errors":0,"created":0},"stores":[{"upipr_status":{"action":"U","id":35281,"error":false,"err_msg":null},"city":"Bangalore","name":"Koramanagala","min_pickup_time":0,"min_delivery_time":0,"contact_phone":null,"notification_phones":null,"ref_id":"5916020-QETWW6521","min_order_value":0,"hide_from_ui":false,"address":null,"notification_emails":null,"zip_codes":null,"geo_longitude":0.0,"active":false,"geo_latitude":0.0,"ordering_enabled":false,"translations":null,"excluded_platforms":null,"platform_data":null,"timings":null,"included_platforms":null}]} |url: |action: 
+2021-09-17 00:43:35.4099||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:44:46.4881||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:44:46.4881||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["253"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Checksum":["82cab24f90edcc46b430146d93545f59"],"X-Upr-Event-Type":["60014"]} |url: |action: 
+2021-09-17 00:44:46.4881||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: |action: 
+2021-09-17 00:44:46.5047||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":"7a2c06c05c844d20a135d6fab797f09c","stats":{"updated":1,"errors":0,"created":0},"stores":[{"upipr_status":{"action":"U","id":35281,"error":false,"err_msg":null},"city":"Bangalore","name":"Koramanagala","min_pickup_time":0,"min_delivery_time":0,"contact_phone":null,"notification_phones":null,"ref_id":"5916020-QETWW6521","min_order_value":0,"hide_from_ui":false,"address":null,"notification_emails":null,"zip_codes":null,"geo_longitude":0.0,"active":false,"geo_latitude":0.0,"ordering_enabled":false,"translations":null,"excluded_platforms":null,"platform_data":null,"timings":null,"included_platforms":null}]} |url: |action: 
+2021-09-17 00:44:46.5047||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["253"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Checksum":["b8268cafeecc514d6ee8d1bfe9779faf"],"X-Upr-Event-Type":["60014"]} |url: |action: 
+2021-09-17 00:44:46.5047||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:44:46.5089||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":"1f6c2048cbed4e51aedb3bb5492b113d","stats":{"updated":1,"errors":0,"created":0},"stores":[{"upipr_status":{"action":"U","id":35281,"error":false,"err_msg":null},"city":"Bangalore","name":"Koramanagala","min_pickup_time":0,"min_delivery_time":0,"contact_phone":null,"notification_phones":null,"ref_id":"5916020-QETWW6521","min_order_value":0,"hide_from_ui":false,"address":null,"notification_emails":null,"zip_codes":null,"geo_longitude":0.0,"active":false,"geo_latitude":0.0,"ordering_enabled":false,"translations":null,"excluded_platforms":null,"platform_data":null,"timings":null,"included_platforms":null}]} |url: |action: 
+2021-09-17 00:44:46.5089||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:45:28.8573||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 00:45:28.8573||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Header : {"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Content-Length":["253"],"Content-Type":["application/json"],"Host":["localhost"],"User-Agent":["python-requests/2.10.0"],"X-Forwarded-For":["135.181.193.7"],"X-Forwarded-Proto":["https"],"X-Original-Host":["2748-106-203-216-58.ngrok.io"],"X-Upr-Biz-Id":["40683216"],"X-Upr-Checksum":["82cab24f90edcc46b430146d93545f59"],"X-Upr-Event-Type":["60014"]} |url: |action: 
+2021-09-17 00:45:28.8680||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Responce : {"reference":"7a2c06c05c844d20a135d6fab797f09c","stats":{"updated":1,"errors":0,"created":0},"stores":[{"upipr_status":{"action":"U","id":35281,"error":false,"err_msg":null},"city":"Bangalore","name":"Koramanagala","min_pickup_time":0,"min_delivery_time":0,"contact_phone":null,"notification_phones":null,"ref_id":"5916020-QETWW6521","min_order_value":0,"hide_from_ui":false,"address":null,"notification_emails":null,"zip_codes":null,"geo_longitude":0.0,"active":false,"geo_latitude":0.0,"ordering_enabled":false,"translations":null,"excluded_platforms":null,"platform_data":null,"timings":null,"included_platforms":null}]} |url: |action: 
+2021-09-17 00:45:28.8680||INFO|OrderingAPI.Controllers.WebHookCallBackController|StoresAddUpdate Authorization :  |url: |action: 
+2021-09-17 00:58:30.8883||INFO|OrderingAPI.Controllers.WebHookCallBackController|WebHookCallBackController.StoresAddUpdate method called!!! |url: https://localhost/api/WebHookCallBack/StoresAddUpdate|action: StoresAddUpdate
+2021-09-17 16:02:05.4828||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:02:11.0369||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:02:39.8505||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 500, ReasonPhrase: 'INTERNAL SERVER ERROR', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:33:22 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jOTwkWJ3WjJe56p1zDMyJi91mHm1SAV48PFHawO3GGv15yIaHlyWAdS1Fix8ug9gX89KKwdbPkNsuFckd9C1d8kY7ugMVo5PI8DV3zykGk7l%2BoJrKCnnajFHO7Ok%2BQ9jkfcnoRY7%2B0I%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901ad05feaa1d31-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:07:19.2857||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:08:07.6121||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:08:12.5091||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:08:28.3151||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:39:16 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7NjIDahZRhlIrfFrEzH%2F8SVWDhJlYdIWD7KQrGPr72%2BaFTavyOSUqsVUOjZTGkTZe9GmMeDpdxPQl5fuX5oeuNuNcQr8XHQgZfu8pfhmoWDJ9KKkuOq4vLWvK3w5PbeV%2Fc8557iYQ%2Fs%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901b5acbd4c1d31-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:11:24.7423||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:11:25.6632||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:11:30.9529||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:42:20 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CcKKPX%2BDMzGR7nTytBxyzyaYcVEJefr93nPC1RsYqaA5aa2sHkgpNqRxF13pxqqHOaWqpb7x77Npm9fDxzPx0p0Nf7A3SsUVP%2FAUZHxQPDByU1nWXV6ghQlBy0CLmQ9SZMcppuDllKU%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901ba285ae61da9-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:22:56.0487||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:22:57.5856||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:23:02.9340||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:53:52 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jvo7lpPV3qUr8ELjXrSXOlGHoMeWR8EFkdfd3J%2FHbOO2Nr62IpYBE%2BtqkEqUYfRQcFi7s1ScI8ZLJoitumUqQQM8189YUZ%2B%2FPLJR6Bqb6FYNZAReSpxPbWOJCvqvNiH21xsDqTWZjfo%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901cb0d3a941d91-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:23:36.9973||INFO|OrderingAPI.Controllers.WebHookController|Error Responce-Newtonsoft.Json.JsonSerializationException: Error converting value "{"x_api_token": "62b7c87eb0bb4a239ff83bd87843b07e"}" to type 'OrderingAPI.Model.Headers'. Path 'webhooks[0].headers', line 1, position 219.
+ ---> System.ArgumentException: Could not cast or convert from System.String to OrderingAPI.Model.Headers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at OrderingAPI.Controllers.WebHookController.GetApi_HttpClient[T](String Url) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 174 |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:25:05.9354||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:25:07.5820||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:25:12.4845||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:56:01 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=azOrVvvFYANFCgbRQ6XB7cB6qTE6F8zgaSD0o3mOkaEOXO%2BjNbMInrKB15ozmeq6JiZUzwk6ZmhUvOpxzp7Jgj2HtMSoElu%2Fs0BIrj4d1V7lK3GBiPpZmVeeHERnAAdJuSewHPvjZKo%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901ce36ed7e1d99-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:27:19.8245||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:27:22.1167||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:27:31.0180||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 10:58:20 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pwwuiUBEnprRHZrJdeoobPabXE9i90O4lzallYsKFfFiAP9muUMp4ch5tg3GquvY2s%2F4jQFXSJReb%2BFK9m67%2BNfMrgT4G406Op61YIjRRhlAvwBtATAxoQasl0pfOkAsbdGnLw1fThs%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901d1987ae61da1-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:27:37.4538||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 11}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}]} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:33:35.6551||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:33:39.5258||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:33:42.5158||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:04:31 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2W3vCQfMYuCNmJVLJyizq2jZv7p13igspMFZDJ2zDY9eukDGLCpHV%2BURJMlv%2FJTv5iOFsqxjsfWbSP0fJh1tgcUmNnZDcjjPTM977ffX9Zo3DQnQ%2Fm2Es9Y4Z1IV2G2k4mTvNyx9uEc%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901daa9afbe1d99-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:33:43.9807||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 11}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}]} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:53:35.1163||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:53:35.1262||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:53:39.1603||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:24:28 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vxo%2BCLdb%2FKn2ARgLniJDZ%2B%2Bv%2BvJIYs2yyjljrdqbnmVSflYae8ONMr4Ui9i6VGnXWXdQg2igFdSk0phmzEepQnDAZJVRj5vDv4s4E7%2BjS%2B5ZjdJtoeASpNtFHiEsKTKZmhkN34qzlnU%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901f7e1ae6c1d3d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:53:40.1138||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 11}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}]} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 16:54:06.8632||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get webhooksId - [5267] Method |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:06.8632||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:10.6569||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 404, ReasonPhrase: 'NOT FOUND', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:24:59 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jz0iZiWrbvHXrY6r%2BqWYF%2BJkfI7KD84rFSQht4CsHGH5bFTH2c1TYvj4ci2DBMgXebJt2XPyAQlYheovH%2ByOq9sxsTkkp0HEjXHKysMDlfogjKzW7Y0HWDlwO%2BPZqu7bxq%2F2MR9uwp0%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901f8a74e561d3d-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:20.7823||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get webhooksId - [5267] Method |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:20.7823||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:45.6832||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:25:32 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QAgYQLIr53OF2te%2BXMJIKUL5bg7e6rXNqRbKS36m916SKPKxa8k4%2BrsV46jsI2MlFl3HF0WJhgmYcMtiWJNCiCV9gKhwTz6Rou7QaiPYHLvRPctl%2BH1geJ6wUmtpT6yg%2BkhPOysdwn0%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6901f9702aa31d24-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 16:54:49.2930||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267} |url: https://localhost/api/WebHook/5267|action: Get
+2021-09-17 17:07:04.4984||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:07:07.0329||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:07:07.0329||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "string",
+  "retrial_interval_units": "string",
+  "url": "string",
+  "headers": {
+    "content-type": "string",
+    "x_api_token": "string"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:07:08.3549||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:37:57 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6n%2BGcYjT2cRPkXWCla1ib60NY75RQ2V%2BpUrRBbmXF89gEPW3afSs7FX%2F8rHnh%2BFLMUtApO3zic6079q70ZCDqI%2BS1bOQgo1iPU917MIukYIIoz3TSBprNlJgOKIgaWyXKYad8vRCOus%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69020ba38b891d9d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:09:21.4289||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:09:23.6065||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:09:23.6126||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://rider.example.com/",
+  "headers": {
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:09:24.5485||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:40:13 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uc%2BehhukNWi7MBG4dugPZpbN7Z1Q4j%2FwBSeGp3lOJ385GdpqNlY03HEfR29HPOElkgWgDnLqxTpib6DDvRcYx9kZ6zJW7qapwXJ%2Bfb1tYdlyiaEtcNv6CKjtQJ8VuSnkP8yE0Nbd91A%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69020ef6d90b1d24-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:09:52.5082||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:22:49.8290||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:06.8690||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:06.8747||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:08.1152||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:53:57 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i%2BqyGzbmeiu%2FYR42GPWEmQJg%2FuJUXsoZMuJABgde3WhAp4thRl2PV%2F0pI7%2B7VcTOKPPP%2FASO2jG2LjG92EuydE10JgSJ%2FwmqoPj0NRTVNmIBhZx9Vuv2L7gUQ%2FyYPzYLJbY9BVoSufg%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 690223122b611d89-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:14.6227||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:49.0310||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:49.0310||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:23:49.9745||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:54:39 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7p4Gc7G4xzE%2Fs3v89eI08afQ0TZlf9ABSsQfyW0%2BRG3aif91NIuMTVc5sgUIXJADDqx3dXvDPA2VsMn%2B3KI40o6NJHS6ObJSgBZWmDexUgaqozmb3BTfyy9q%2BPoqE07E83QlxRWaht8%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69022417beb01d20-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:24:29.3618||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:25:47.9129||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:25:48.5205||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:26:04.4775||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 11:56:51 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jnqO6x%2FlHBN3KWYdKEEqCCcICM5qIaBSElPK6En4YxS01fsn8cLavbTlVk56OIl5JWbcwc%2FoBmzBjPriL%2BYn1eD0msU83Z0u78hsVAmco75yv3XmDiqx%2BrrJ6IXyVRh490bQkkFdYjU%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69022755ac4c1d20-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:37:47.0213||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:37:53.9895||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:37:53.9895||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:37:55.2467||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 12:08:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6pamM97TJPDMht51L%2FEsKt4sFRQTCU8kTwAZFydoV2bKwQvhX4bfxWkun36bnQFmIw6oCx%2FBsSMveV%2FvMcc38u0yA2j1tl18v%2BKR7%2Bx3Yby3vTU8ZPnbtkeYHkpvJZqZjxlGkFCF%2Fo4%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 690238ba6d681d2d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:37:55.2467||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "error", "message": "Webhook data is duplicate"} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:54:57.5289||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:54:59.7321||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:54:59.7347||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:55:00.8786||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 12:25:49 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vvPU8OoY1mew8Ev78Y09mzEmP%2BGlJXSMmKSHGSbIJFHsMFWJSgN7xhBTK2vY7tr3OLosb5eA1Mf1NCG5oX4zuCEhT7DVqwRaW0mX8A2UN9f8mX8T4L2zrOQaZh9YK5fsgOk7Mxofzww%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 690251c4c99e1d14-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:55:04.9196||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce-{"status": "error", "message": "Webhook data is duplicate"} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:58:06.3819||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:58:09.1905||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:58:09.1905||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:58:10.3361||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 12:28:59 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2vnSNe1wyzr%2BB%2FotNEXfKGBl8cDiHEdrXuup%2FUsgMXIAyPgkFZe%2BN47cmPLAq8pGjy%2BJurg03S9y1w63GmLND7UGMkfc61nGONXHwHa9y9%2FM0M1jM8eI3oqc5EcwCwTmeJ%2FePPThds8%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69025664e9dd1d31-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:58:13.4323||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce-{"status": "error", "message": "Webhook data is duplicate"} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:59:11.2395||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:59:13.0276||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:59:13.0276||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://rider123.example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:59:13.9924||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 12:30:03 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kRy3IXdO%2FrcdO0eHzPSfjBwkI0xteRYyJHqmaEy%2FGt98OWZUhhSKNgc2Rvqgn6SBEZYu3tqZd9EHXi1%2BQvIKvQzxsU1GsxFboeoZTvzxkO5175tlwotDwn%2B%2Fazfur%2FHUqwioNYhA2LE%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 690257f2d9411d8d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 17:59:19.2295||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce-{"status": "error", "message": "Webhook data is duplicate"} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:00:34.9817||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:00:37.2093||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:00:37.2093||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://rider123434.example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef22"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:00:38.1448||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 12:31:27 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8IAkdv04Tfmk0UikGN5s1beEo27IRwY8NcAToCYmMjxfltzPmhIVA9mJ9apkirXMD0hxgIzpslSOGDJwdgs9FwheDEHgPACqZx4976mbHze0a7SFmfU6z41DmNEd4u46tLOOQwfI%2FTs%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69025a00bf751d91-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:00:49.2603||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce-{"status": "error", "message": "Webhook data is duplicate"} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:02:03.8258||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:02:30.1953||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Post
+2021-09-17 18:02:30.1953||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "http://eeeeeeee.example.com/",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef22"
+  }
+} |url: https://localhost/api/WebHook|action: Post
+2021-09-17 21:41:01.1135||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:41:01.3768|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at OrderingAPI.Controllers.APIController.GetApi_HttpClient[T](String Url, IHeaderDictionary headers) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\APIController.cs:line 23
+   at OrderingAPI.Controllers.WebHookController.HttpApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 125
+   at OrderingAPI.Controllers.WebHookController.ApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 152
+   at OrderingAPI.Controllers.WebHookController.Get() in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:42:02.7308||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:48:19.0257||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:48:42.5504|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at OrderingAPI.Controllers.APIController.GetApi_HttpClient[T](String Url, IHeaderDictionary headers) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\APIController.cs:line 23
+   at OrderingAPI.Controllers.WebHookController.HttpApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 125
+   at OrderingAPI.Controllers.WebHookController.ApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 152
+   at OrderingAPI.Controllers.WebHookController.Get() in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:49:00.5049||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 21:50:05.4853|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at OrderingAPI.Controllers.APIController.GetApi_HttpClient[T](String Url, IHeaderDictionary headers) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\APIController.cs:line 23
+   at OrderingAPI.Controllers.WebHookController.HttpApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 125
+   at OrderingAPI.Controllers.WebHookController.ApiCall[T](HttpAttribute HttpMethod, String Url, String JsonRequest) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 152
+   at OrderingAPI.Controllers.WebHookController.Get() in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/WebHook|action: Get
+2021-09-17 22:03:50.2832||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Get Method |url: https://localhost/api/WebHook|action: Get
+2021-09-17 22:03:53.2089||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook|action: Get
+2021-09-17 22:03:55.4843||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 16:34:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qjj8KOzQp2IfhN0jR1qZ0LZRLLBiV%2F51jP6utsDWBwOMjRn3sjw8H5CBv6jOyjXVObW9%2FUXAqjfMfRYQO37uB7oIZD4dAzW1wZVQOk3iy%2Bc5PUSTAtCeqRzCAk1Cwft7aibj610hjSk%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6903be60acc81da9-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 22:03:55.4872||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook|action: Get
+2021-09-17 22:10:33.3167||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:33.3167||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:33.3167||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:38.4294||INFO|OrderingAPI.Controllers.WebHookController|Error:Apikey not found |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:38.4294||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:38.4294||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:10:38.4294||INFO|OrderingAPI.Controllers.WebHookController|Error:Apikey not found |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:51.4555||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:51.4555||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:53.1505||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:55.5122||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 17:12:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=12WeL5hFZ3AG2pkvueDIGGPyn620rRudPmFliq4lCbgMcJ5NsyC2w8gS1OGJP7JcI2E26QrgWV1LtS%2B5%2BE76M0xSXZ1xgYBt8y789bN%2FGrjFUmEllrRyZRXlGRdjvXQwTGgTcHhsLb0%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6903f60b69001dad-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:55.5191||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:41:55.9397|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OrderingAPI.Controllers.WebHookController.UpdateWebHookURL(WebHookEvent webHookEvent, String Url) in C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\Controllers\WebHookController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:42:47.1770||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:42:47.1770||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:42:48.4616||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:42:52.2858||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 17:13:41 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=m3VeUgAU60Sf%2FvoCutBvJlTOorXdcwPO96B3iVIfD6eWA3IsLEXV2kvXfse4qpX2HlUWUJXAhNhFIYFb2eyt0R5CQSWydi5RoeAxs97OaAzoqjehxIY8Tx8LBhidW8Rewk15jsl7RUg%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6903f76e29251d35-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:42:52.2858||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:41.7700||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:41.7700||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:44.4063||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:47.0196||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 17:26:36 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RDOZg%2Bv8k0bmWnQcgxWfSpb8wSXGhyJYklq65AYRCMbDk7JGP27fpT71AjbMEsg5DdnUfV1MR7g63rgwabNwkZt4Gjgqnk8uE%2BbL2L%2FlA5xHWGoMr7I6nOy2glj3nIGqI8fX5E6J3Sg%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69040a58094a1d9d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:47.0196||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 22:55:52.0802||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5267 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:36.7147||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:36.7352||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:37.9485||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:42.7815||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:05:31 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1CBL%2F6KMv%2BxWP1QhhqrWj8eBZ93lZjlFsTh8UAztGEJZhGJ8qB%2F98twCqTp5dMP4Rv3uyXiSsjj%2BfivxgzOAxUWCPEosOYC8aghlEdLflJ0OWP5%2B1s8aSvIM2BFZiGj4OERTId2gQZ8%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6904435e9ae61d99-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:42.7928||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"62b7c87eb0bb4a239ff83bd87843b07e\"}", "retrial_interval_units": "seconds", "url": "", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:34:46.7486||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5267 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:35:21.8778||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:35:22.7545||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5267, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.qqq.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:36:26.0026||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 404, ReasonPhrase: 'NOT FOUND', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:06:16 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2Shn2lcOcg%2F0V47JrYhRZnRd23sPky3gjoXtCK81AqoTNN%2Fr8M61tq4q9eT%2FeBL%2BzC2n5T%2BXWGnQfqKmPI2RjYLdXaSMk2UOo4VHWQrqyEj%2FFZkgdDj720JIoLlrVYNMehOsHUwYiYY%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 690444774a091d29-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:36:28.2271||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce-<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
+    
+    <title>Page not found</title>
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+<!--    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function(){
+            $.extend(  $.mobile , {
+                ajaxEnabled: false,
+                ajaxFormsEnabled: false
+            });
+        });    
+    </script>
+
+    <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
+   
+    <link href="/static/res/up-main.css" rel="stylesheet" type="text/css">
+
+    
+    
+        
+    <html xmlns:fb="http://www.facebook.com/2008/fbml">        
+        
+</head>
+
+<body>    
+<div id="fb-root"></div>    
+<div data-role="page" id="page-not-found" data-add-back-btn="true" data-cache="never">
+    
+    <div data-role="header" data-position="inline" data-theme="a"> 
+          
+        <h1><a href="/aboutus">urbanpiper</a></h1>
+        
+    </div><!-- /header -->     
+    
+    <div data-role="content" style="background: transparent;">
+    <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="e" data-count-theme="d">  
+                        
+        <li class="offer_detail_content">
+                <h1>Page not found.</h1>                
+                <p>We couldnt find the page you are looking for.</p>
+                <p>Our engineering minions have been alerted - if this is a problem on our end, we are working hard to fix it.</p>
+                <p>Thanks!
+                <br>UrbanPiper Team
+        </li>
+                
+    </ul> 
+    </div>    
+    
+    
+    <div style="text-align:center;">Copyright (c) 2011 UrbanPiper, Inc.</div>
+    <br>
+    
+    <div data-role="footer" data-theme="a">   
+        <div data-role="navbar">
+            <ul>
+                <li><a href="/termsofuse" data-role="button" data-icon="info">Terms</a></li>
+                <li><a href="/privacy" data-role="button" data-icon="info">Privacy</a></li>                
+                <li><a href="/cdn-cgi/l/email-protection#b6c5c3c6c6d9c4c2f6c3c4d4d7d8c6dfc6d3c498d5d9db89e5c3d4dcd3d5c28be3c4d4d7d8e6dfc6d3c4938486e4d3c1d7c4d2c5938486e6c4d9d1c4d7db938486d0d3d3d2d4d7d5dd" data-role="button" data-icon="grid">Contact</a></li>
+            </ul>
+         </div>
+    </div><!-- /footer -->  
+    
+</div>    
+    
+    
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html> |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:38:06.3377||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:08:54 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mjxi4%2BEm5xj%2Bb8HcF37F55ttFHcaqTzLJb1fI%2Fxzz37q2RNBJrla500NSCJ57spSXi38TkRAnfM92n7pEMW6MdnYhDNaYJduQrZHZLq8fsO6UaSG5MtElaoj7N7eq1FTiPueZg1CgpE%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 6904484fc9ee1e08-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:38:12.5863||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5267} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:33.7067||INFO|OrderingAPI.Controllers.WebHookController|WebHookController.UpdateWebHookURL method called!!! |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:33.7067||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL event Type all Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:35.7403||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:36.4860||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:25 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  Cache-Control: no-cache
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RV49266ZWjaavjSN0Xfe2SK3mXqcqNJkHWCPWv3fLoFInrin6GrN3VFln51yJX6Ln99W2gxv%2BJHj3YXKji1R%2B8%2FtoUuizTLgn80%2Fk%2BfHcRpufgUz5PMbNXVC9PKJ0mZtAoJ7ODlSCr0%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044a8a8a8e1d29-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:36.4860||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 18}, "webhooks": [{"active": true, "event_type": "store_creation", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "www.qqq.com/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5267}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"b398cc8ac2634c3892e0948eb358a888\"}", "retrial_interval_units": "seconds", "url": "WWW.ASD.AD.COM", "webhook_id": 5268}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"6441af0fc0a84ce5901aadf874e6674b\"}", "retrial_interval_units": "seconds", "url": "asd.com", "webhook_id": 5284}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"523b74dbc55d43c0a9a3747b63e9ec0e\"}", "retrial_interval_units": "seconds", "url": "ww.asd.com", "webhook_id": 5285}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "wwe.asd.com", "webhook_id": 5286}, {"active": false, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "none", "url": "https://localhost:44321/api/Ordering/Stores/", "webhook_id": 5287}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.asd.com", "webhook_id": 5288}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "www.auysd.com", "webhook_id": 5289}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/Ordering/Stores", "webhook_id": 5290}, {"active": false, "event_type": "store_creation", "headers": "{\"x_api_token\": \"23d091dc49d34ee3a5f3606f9c648e5d\"}", "retrial_interval_units": "seconds", "url": "https://localhost:44321/api/WebHookCallBack/CreateUpdateStores/", "webhook_id": 5291}, {"active": true, "event_type": "store_creation", "headers": "{\"Content-type\": \"application/json\"}", "retrial_interval_units": "minutes", "url": "https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate", "webhook_id": 5312}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider.example.com/", "webhook_id": 5330}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://example.com/", "webhook_id": 5331}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rider123.example.com/", "webhook_id": 5332}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://rider123434.example.com/", "webhook_id": 5333}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://rrrrr.example.com/", "webhook_id": 5334}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef\"}", "retrial_interval_units": "seconds", "url": "http://werwer.example.com/", "webhook_id": 5335}, {"active": true, "event_type": "rider_status_update", "headers": "{\"x_api_token\": \"4trgfdsfd243tg54342rewfcef22\"}", "retrial_interval_units": "seconds", "url": "http://eeeeeeee.example.com/", "webhook_id": 5336}]} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:36.6793||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5267 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.4063||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.4078||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5267/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.8750||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:27 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bbrU12FWj2PDNDOoDFo1Pu490ih0Jq1EdP1%2BkIx5SGFfBJO35YGmIgrmvxRD1LU3MX3BVv%2Bf6PVR7qpKEozLszG3qAK8gmT0zM8JlFf7fCA3wh5%2BsUakvoVqQPyG2%2BglDYaJ8JDhilg%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044a99ddf51e08-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.8771||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5267} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.8771||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5267 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:38.8771||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5268 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.0820||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.0820||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5268/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:37 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Mm1g0YtFqQWedbms1AjwaK6%2FGdi9AzjC5l97CgtFO8OxXCEQr76VDRkNRuaryFNEtpgWKrfHMOjn%2BMfwCDbKEVUDtgUA2JZLuGvVP8CFlmMnnaqs5cMWVytuQTk2GQlRDnOKp87iDks%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044ad6686226b9-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5268} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5268 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5284 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.5638||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5284/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:38 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NlFiliOR9zVN5K7xmSRfbsCB3Jf7%2BgRwg%2BaZEj3tc%2FXEFRLaI2AlkZqrg9CALbRzNBoipsEYFB1GAmh0iJkcWO8RhQKfVE6MksSEskty9wAKZ16to7%2FUzBfhTs265irkL1872vmv%2Fi4%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044ad9489532af-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5284} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5284 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5285 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:48.9904||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5285/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4830||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:38 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eSUcQfXMiT0QQxUOtDFpD4KzX92HaVJeTKf13R7Kz43vYILvMjSO%2FEL7T8TDlZOOzgXk6eK2n6oqfZt3zuCW8hGansgLhMSfrzUoMPd9b4szx5n0V3qhMPHFKKVO4yH0gcDGD97UEUM%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044adc0ad41da1-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4830||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5285} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4856||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5285 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4856||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5286 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4856||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.4856||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5286/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:39 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PZoYzVsD9ueecWyu26k5VzxMHs2NtGuMrAl6PiGjr0PbPm3%2BwPs1PKZvqpbyJIhFYEf3IPb81iE0xoE9ZhrCEt1Z%2FZJm1ul8fGsDFxV2p86fX2wGHKnRpRABapgU1fgEQ5dmdKb8LbM%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044adf18a61da1-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5286} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5286 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5287 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:49.9601||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5287/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4031||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:39 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B1wSw5zOKhv9gWBj%2FHgLf31m2vhzbN62aJ4bMFdtKsbgJIH0Vt12Oy30aM9aHmxq1qtFBhNXr4VxI20DOVDedqdXfnDTwxOvXrp0oDGbH0MpSm9rAeEmiMStOuvEo2DIHtmkpMTGQBM%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044ae20e301d29-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4031||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5287} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4031||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5287 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4075||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5288 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4075||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.4075||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5288/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:39 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z5UoyxABqwLdjswakoKJUJ3dLi6H8HcVwtS3AsyZOeQBKsd6E6MmaD0wfkISNmKQYDK1M8kTckHG4bc1OcKevkjzj7kRUVxH5COqiPKLp6ya1xFQi63qVvOv%2FJgF68I93XiytrQJ0Hc%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044ae4d8a01d2d-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5288} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5288 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5289 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:50.8488||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5289/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3080||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:40 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3zo5qY5rqykhU2loUhynBmN8qSiMH35hO2rFd30W98R1q9Fo4yAFAgOw4Dw5vAzeBjA1jmzz7bBGsCTgPR%2FVGw9ZMW%2FIpD0HbHDaRoxS4SWNCq0jbuqCi09LzcBSIBEtdMF4a64chLo%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044ae79b3d26b9-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3080||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5289} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3080||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5289 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3142||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5290 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3142||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.3142||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5290/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:40 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RzGYLcy9W6ToVALhsbaygV9j02YgvNQOmyCt4XsebVvoHz6bMPr6dfPli5Iio3IWdw8Lt9d7IA35X456MrVq10%2FPal2j%2FA9tlzAgUgSVFkOA1Yo4bZp8IqskHhcaAg6QpUbrG3s8Y6s%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044aea9c8f1dad-BLR
+  Content-Type: application/json
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|Success Responce-{"status": "success", "message": "Webhook has been successfully updated.", "webhook_id": 5290} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5290 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5291 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:51.8148||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5291/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:41 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y9f%2Fmi34ry3iUv0uml9YdHvSxuKbBLTji2uRykA5PeD%2FJRptcMTTpTbaHm9i9Dl5blw0UEW1txQf2DyHtVE3qrlUQQ36I4xE8rJiUxH%2BTDflYDPdxH%2FwPsyilIzVGYSP12i71hsyFfs%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044aeda9df1d35-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5291 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5312 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.2849||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5312/, Request-{
+  "active": true,
+  "event_type": "store_creation",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7278||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:41 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RuyIZxFAo38I0Mtd45%2F8W7TOms7j9syZAgmeMkY727j5t4vHC4tIr9DYlGFFIQV9IpsKw%2BhfOifMCWHR1kpqF0d2Ff5uAaXdcFHdzcA4KgQv2G1awVg23Bbbab19Sj8uqkSyHzPSoms%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044af08a061d99-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7278||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7278||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5312 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7278||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5330 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7278||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:52.7352||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5330/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:42 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lWrFbE51W0%2BNjtuDLzsPvx8bFJsaUzwBoofz3gbL%2Bot8IKKT31p4MeuVtUT4p0mKrIbL0rqZ%2F0DI8DMa5W81H1xRoren8pH2VaX4OBP%2Fhh%2BCk2IOEthjHla9E2tsmpM3G5Z7V%2FG25P4%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044af369a11da9-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5330 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5331 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.1734||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5331/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:42 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MhfQZ2NWGY3ilO1wI8%2FWlJWoqXvJ3Y7FScGgPqzJ7FYc5SKre%2BRvLwqwr791yX8ADIqldnLLnmXOyAD8cfwtQfBttFqR7EcfzGWOS%2BmcGdiKAlIMUFyQdh8myFR9Sk4Rc4T1hSvj0GM%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044af61ceb1d2d-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5331 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5332 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:53.6411||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5332/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:43 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PbE0lOz7Crh4AxZjs8YEnbiQDxrdBbCO07ejxgHtBa7u5kxL1nRTiSY0DC2jAum2nQ62tfv4Ud183cRZPDqcsuxlKysjpBaNS03mNs57OcusRCqSAnpFBgtbuVDVtFlK5nLi9MLCKWw%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044af91ddb1d20-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5332 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5333 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.0991||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5333/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:43 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QUHRQizRBe5eHonDw4uR7vBUHqzLHWWY1g%2BOJyZNlGCvIInd%2FBZ%2FHn2TsxmiNi38QzxciyKiGvQXaVEgjIS4x4IB%2FM4F4B3nOtJrPjmDSEtqGHUoybSerxInBGnT0Mupzd8AyCDjKPM%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044afbfd001e08-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5333 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5334 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:54.5788||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5334/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wcdv4JVw7MsIMKcP2IbBl%2BILMtli4jDw9hIMQRtUtIBNX3l%2FpMEVJAFP4pIgsBCu4P4PSzqXAfq1%2F8zVsSw22LupCYaskEri6dLx5Pju%2F0kQVhdCyb7gsHh83CWrEgoxI2fe0UmY%2FMw%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044afeec231d29-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5334 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5335 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.0368||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5335/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uxpic7MHb8i6ysMeYNbzwtyjJcVoRmhzye66zqXraCIkvP14y4uPUZcKi%2BdjCwMgyRxbvdoIMqD818ckmy%2FzUZ82Ek%2F8s%2BeIQRih7Vz7jHpsVr8roCk1aTZBGUPQ0mCrLFHBSWoV2Fk%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044b01be811d31-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5335 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5336 Update All webhook |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.3289||INFO|OrderingAPI.Controllers.WebHookController|URL:https://pos-int.urbanpiper.com/external/api/v1/webhooks/5336/, Request-{
+  "active": true,
+  "event_type": "rider_status_update",
+  "retrial_interval_units": "seconds",
+  "url": "www.testur.1111.com/api/WebHookCallBack/StoresAddUpdate",
+  "headers": {
+    "content-type": "application/json",
+    "x_api_token": "4trgfdsfd243tg54342rewfcef"
+  }
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.7977||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:44 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EX2MRpiumC9XWXKga64Hp14lQo8fGb42Tw35H1qsYasTHjqlRhFzGq2uExCnlkbn1IOaAM9VoKfK7rqhDwC%2ByHvxMYDq02JX68lPGd1TWM2E6uTIxqoK38GkgJL%2FY7tR%2FID1M%2FvGwAc%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044b039e561d89-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.7977||INFO|OrderingAPI.Controllers.WebHookController|Fail Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.7977||INFO|OrderingAPI.Controllers.WebHookController|UpdateWebHookURL ID 5336 Update responce OrderingAPI.Model.Responce+HttpResponce |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.7977||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.Post Method |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:55.7977||INFO|OrderingAPI.Controllers.WebHookController|WebhooksController.PostApi_HttpClient method Complete |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:56.2611||INFO|OrderingAPI.Controllers.WebHookController|Http Responce-StatusCode: 429, ReasonPhrase: 'TOO MANY REQUESTS', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Fri, 17 Sep 2021 18:10:45 GMT
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Cookie
+  X-Frame-Options: SAMEORIGIN
+  P3P: P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT STA LOC"
+  CF-Cache-Status: DYNAMIC
+  Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=322i1yftFddXeV8IrCXXwuvT8P8%2F9WaY0hkraSg9MvU5DmOJzyNjewrRDjx2b9hm4p6PsMr%2BiuxCetc6NeXmYt3esHT%2BpEY6wC8DvHqQo8WR5KwB4xxHjCVtY24OjgpEDZb5vDMxsgA%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 69044b068b561d14-BLR
+  Content-Type: text/html; charset=utf-8
+} |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL
+2021-09-17 23:39:56.2611||INFO|OrderingAPI.Controllers.WebHookController|Success Responce- |url: https://localhost/api/WebHook/UpdateWebHookURL|action: UpdateWebHookURL

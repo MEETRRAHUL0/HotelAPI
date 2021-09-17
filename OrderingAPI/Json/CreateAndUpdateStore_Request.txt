@@ -1,0 +1,110 @@
+{
+  "stores": [
+    {
+      "city": "Bangalore",
+      "name": "Koramanagala Rahul 123",
+      "min_pickup_time": 900,
+      "min_delivery_time": 1800,
+      "contact_phone": "9999999999",
+      "notification_phones": [
+        "+919999999999",
+        "8888888888"
+      ],
+      "ref_id": "5916020-QETWW63330909",
+      "min_order_value": 200,
+      "hide_from_ui": false,
+      "address": "2nd Cross 5th Main",
+      "notification_emails": [
+        "b1@mail.com",
+        "b2@mail.com"
+      ],
+      "zip_codes": [
+        "560033",
+        "560022"
+      ],
+      "geo_longitude": 22.234324,
+      "active": true,
+      "geo_latitude": 19.12312,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "fr",
+          "name": "Koramanagala"
+        }
+      ],
+      "excluded_platforms": [
+        "swiggy"
+      ],
+      "platform_data": [
+        {
+          "name": "zomato",
+          "url": "https://www.zomato.com/bangalore/cakes-sweets/order",
+          "platform_store_id": "535678588"
+        }
+      ],
+      "timings": [
+        {
+          "day": "monday",
+          "slots": [
+            {
+              "start_time": "10:00:00",
+              "end_time": "22:30:00"
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "slots": [
+            {
+              "start_time": "10:00:00",
+              "end_time": "22:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "delhi",
+      "name": "Connaught Place",
+      "min_pickup_time": 900,
+      "min_delivery_time": 1800,
+      "contact_phone": "+919999999999",
+      "notification_phones": [
+        "9999999999",
+        "+918888888888"
+      ],
+      "ref_id": "6906-45r7-f7u3-3645",
+      "min_order_value": 200,
+      "hide_from_ui": false,
+      "address": "Sector 21, D - block",
+      "notification_emails": [
+        "d1@mail.com",
+        "d2@mail.com"
+      ],
+      "zip_codes": [
+        "110021",
+        "2312323"
+      ],
+      "geo_longitude": 22.234324,
+      "active": false,
+      "geo_latitude": 19.12312,
+      "ordering_enabled": true,
+      "translations": [
+        {
+          "language": "fr",
+          "name": "Connaught Place"
+        }
+      ],
+      "included_platforms": [
+        "swiggy"
+      ],
+      "platform_data": [
+        {
+          "name": "swiggy",
+          "url": "https://www.swiggy.com/restaurants/cakes-sweets-connaught-place-5567",
+          "platform_store_id": "5567"
+        }
+      ]
+    }
+  ]
+}

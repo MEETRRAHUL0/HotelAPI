@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace OrderingAPI.Model
 {
@@ -60,15 +57,4 @@ namespace OrderingAPI.Model
     {
         public List<Store> stores { get; set; }
     }
-
-    public class StoreResponce
-    {
-        public string status { get; set; }
-        public string message { get; set; }
-        public string reference { get; set; }
-    }
-
-
-
-
 }

@@ -1,0 +1,9 @@
+{
+  "stores": [
+    {
+      "city": "Bangalore",
+      "name": "Koramanagala",
+      "ref_id": "5916020-QETWW6521"
+    }
+  ]
+}

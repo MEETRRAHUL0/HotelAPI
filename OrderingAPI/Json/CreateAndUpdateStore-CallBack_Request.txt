@@ -1,0 +1,126 @@
+{
+    "stats": {
+        "updated": 2,
+        "errors": 0,
+        "created": 0
+    },
+    "stores": [
+        {
+            "city": "Bangalore",
+            "ordering_enabled": true,
+            "name": "Koramanagala Rahul 123",
+            "min_pickup_time": 900,
+            "platform_data": [
+                {
+                    "url": "https://www.zomato.com/bangalore/cakes-sweets/order",
+                    "platform_store_id": "535678588",
+                    "name": "zomato"
+                }
+            ],
+            "min_delivery_time": 1800,
+            "notification_phones": [
+                "+919999999999",
+                "8888888888"
+            ],
+            "upipr_status": {
+                "action": "U",
+                "id": 35310,
+                "error": false
+            },
+            "translations": [
+                {
+                    "name": "Koramanagala",
+                    "language": "fr"
+                }
+            ],
+            "timings": [
+                {
+                    "slots": [
+                        {
+                            "start_time": "10:00:00",
+                            "end_time": "22:30:00"
+                        }
+                    ],
+                    "day": "monday"
+                },
+                {
+                    "slots": [
+                        {
+                            "start_time": "10:00:00",
+                            "end_time": "22:30:00"
+                        }
+                    ],
+                    "day": "tuesday"
+                }
+            ],
+            "ref_id": "5916020-QETWW63330909",
+            "excluded_platforms": [
+                "swiggy"
+            ],
+            "min_order_value": 200,
+            "hide_from_ui": false,
+            "address": "2nd Cross 5th Main",
+            "notification_emails": [
+                "b1@mail.com",
+                "b2@mail.com"
+            ],
+            "contact_phone": "9999999999",
+            "geo_longitude": 22.234324,
+            "active": true,
+            "geo_latitude": 19.12312,
+            "zip_codes": [
+                "560033",
+                "560022"
+            ]
+        },
+        {
+            "city": "delhi",
+            "ordering_enabled": true,
+            "name": "Connaught Place",
+            "min_pickup_time": 900,
+            "platform_data": [
+                {
+                    "url": "https://www.swiggy.com/restaurants/cakes-sweets-connaught-place-5567",
+                    "platform_store_id": "5567",
+                    "name": "swiggy"
+                }
+            ],
+            "min_delivery_time": 1800,
+            "notification_phones": [
+                "9999999999",
+                "+918888888888"
+            ],
+            "included_platforms": [
+                "swiggy"
+            ],
+            "translations": [
+                {
+                    "name": "Connaught Place",
+                    "language": "fr"
+                }
+            ],
+            "ref_id": "6906-45r7-f7u3-3645",
+            "notification_emails": [
+                "d1@mail.com",
+                "d2@mail.com"
+            ],
+            "hide_from_ui": false,
+            "address": "Sector 21, D - block",
+            "min_order_value": 200,
+            "upipr_status": {
+                "action": "U",
+                "id": 35282,
+                "error": false
+            },
+            "contact_phone": "+919999999999",
+            "geo_longitude": 22.234324,
+            "active": false,
+            "geo_latitude": 19.12312,
+            "zip_codes": [
+                "110021",
+                "2312323"
+            ]
+        }
+    ],
+    "reference": "ed474c7731794c619db0cdd5774e193e"
+}

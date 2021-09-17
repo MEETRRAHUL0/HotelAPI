@@ -1,0 +1,8 @@
+{
+    "active": false,
+    "event_type": "store_creation",
+    "headers": "{\"Content-type\": \"application/json\"}",
+    "retrial_interval_units": "none",
+    "url": "https://localhost:44321/api/Ordering/Stores/",
+    "webhook_id": 5287
+}

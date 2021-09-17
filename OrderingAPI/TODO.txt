@@ -1,0 +1,7 @@
+﻿
+
+------------TODO------------------------------------
+
+1. Validation to all API call
+2. Formate the responce json , use Enum to update the status in text formate
+3.

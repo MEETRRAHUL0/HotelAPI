@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace OrderingAPI.Model
 {
-
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class CategoryTranslation
     {
@@ -149,6 +145,4 @@ namespace OrderingAPI.Model
         public bool flush_charges { get; set; }
         public List<Charge> charges { get; set; }
     }
-
-
 }
