@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using OrderingAPI.Helpers;
 using OrderingAPI.Model;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using static OrderingAPI.Model.Responce;
 
@@ -76,24 +77,36 @@ namespace OrderingAPI.Controllers
 
                     if (AllWebHook != null && AllWebHook.result != null)
                     {
-                        var _webHookList = ((WebHooks)AllWebHook.result).webhooks;
+                        var _webHookList = ((WebHooks)AllWebHook.result).webhooks.Where(w=>w.active == true);
+                        _webHookList = _webHookList.Where(w => w.active == true);
                         foreach (var webhook in _webHookList)
                         {
                             try
                             {
-                                var webhookEventIndex = (int)webhook.event_type;
-                                var callBackMethod = Helper.WebHookCallBackMethod[webhookEventIndex].Value;
+                                var webhookEventIndex = webhook.event_type;
+                                var callBackMethod = Helper.WebHookCallBackMethod.Where(k=> k.Key == webhookEventIndex);
 
 
                                 var id = webhook.webhook_id;
                                 var h = webhook.headers;
+                                var uri = new Uri(webhook.url);
+                                string host = uri.Host;
+                                string scheme = uri.Scheme;
+                                int port = uri.Port;
+                                var baseUri = uri.GetLeftPart(System.UriPartial.Authority);
+
+                                var urlBuilder = new UriBuilder(webhook.url);
+
+                                urlBuilder.Host = Url;
+
                                 var req = new WebHookRequest()
                                 {
                                     active = true,
                                     event_type = webhook.event_type.ToString(),
                                     headers = new Headers() { ContentType = "application/json", x_api_token = "4trgfdsfd243tg54342rewfcef" },
                                     retrial_interval_units = "seconds",
-                                    url = $"{Url}/api/WebHookCallBack/{callBackMethod}"
+                                    url= urlBuilder.Uri.ToString()
+                                    //url = $"{Url}/api/WebHookCallBack/{callBackMethod}"
                                     //https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate"
                                 };
                                 _logger.LogInformation($"{actionName} ID {id} Update All webhook");

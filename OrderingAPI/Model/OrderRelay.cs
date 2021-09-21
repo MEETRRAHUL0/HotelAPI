@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace OrderingAPI.Model
 {
-    public class OrderRelaycs
+    public class OrderRelay
     {
     }
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Address
     {
         public string city { get; set; }

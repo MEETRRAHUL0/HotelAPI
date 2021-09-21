@@ -16,6 +16,7 @@ namespace OrderingAPI.Helpers
 
 public enum WebHookCallBackMethods
 {
+        all,
     StoresAddUpdate,
     StoreActions,
     CatalogueIngestion,

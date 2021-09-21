@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using OrderingAPI.Model;
+using OrderingAPI.SQL;
 using System;
 
 namespace OrderingAPI.Controllers
@@ -248,6 +249,9 @@ namespace OrderingAPI.Controllers
                         _logger.LogInformation($"{actionName} Header : {header}");
                         _logger.LogInformation($"{actionName} Responce : {res}");
                         _logger.LogInformation($"{actionName} Authorization : {accessToken}");
+
+                        DBConnect dbConnect = new DBConnect();
+                        dbConnect.AddOrder(value);
                     }
                     catch (Exception Ex)
                     {
@@ -271,7 +275,7 @@ namespace OrderingAPI.Controllers
             var header = JsonConvert.SerializeObject(Request.Headers);
             Request.Headers.TryGetValue("Authorization", out var accessToken);
 
-            if (value.order_id != null)
+            if (value.order_id >0)
             {
                 System.Threading.ThreadPool.QueueUserWorkItem(wi =>
                 {

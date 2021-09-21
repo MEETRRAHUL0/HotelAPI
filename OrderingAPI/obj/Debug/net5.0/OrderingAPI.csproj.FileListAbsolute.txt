@@ -32,3 +32,9 @@ C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\nlog.confi
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.dll
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
