@@ -24,6 +24,8 @@ namespace OrderingAPI
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OrderingAPI", Version = "v1" });
+                c.DocInclusionPredicate((name, api) => api.HttpMethod != null);
+
             });
         }
 

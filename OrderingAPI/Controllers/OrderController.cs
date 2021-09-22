@@ -26,22 +26,33 @@ namespace OrderingAPI.Controllers
             _logger = logger;
         }
 
-        [Route("ExternalOrderReferenceUpdate")]
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        //[HttpPost]
         [HttpPut("{id}")]
-        public async Task<IActionResult> ExternalOrderReferenceUpdate(int id, [FromBody] ExternalOrderReferenceUpdate reference)
+        //[SwaggerOperation("GetCustomers")]
+        [Route("ExternalOrderRefUpdate")]
+        public async Task<IActionResult> ExternalOrderRefUpdate(int id, ExternalOrderReferenceUpdate reference)
         {
             _logger.LogInformation($"WebhooksController.Put webhooksId - [{id}] Method");
             return await ApiCall<ConfigurationResponce>(HttpAttribute.PUT, $"{WebHookURL}/external/api/v1/orders/{id}/", Helper.SerializeObject(reference));
         }
+
+        [HttpPut("{id}/{status}")]
         [Route("OrderStatusUpdate")]
-        [HttpPut("{id}")]
         public async Task<IActionResult> OrderStatusUpdate(int id, string status, [FromBody] OrderStatusUpdate orderStatusUpdate)
         {
             _logger.LogInformation($"WebhooksController.Put webhooksId - [{id}] Method");
             return await ApiCall<ConfigurationResponce>(HttpAttribute.PUT, $"{WebHookURL}/external/api/v1/orders/{id}/{status}", Helper.SerializeObject(orderStatusUpdate));
         }
+
+
+        [HttpPost]
         [Route("MarkOrderItemsStockOut")]
-        [HttpPut]
         public async Task<IActionResult> MarkOrderItemsStockOut([FromBody] MarkOrderItemsStockOut markOrderItemsStockOut)
         {
             _logger.LogInformation($"WebhooksController.Put webhooksId Method");
@@ -51,7 +62,7 @@ namespace OrderingAPI.Controllers
         private async Task<HttpResponce> HttpApiCall<T>(HttpAttribute HttpMethod, string Url, string JsonRequest = null)
         {
             var res = new HttpResponce();
-            var apiController = new APIController(_logger);
+            var apiController = new APICallController(_logger);
             Request.Headers.TryGetValue("Authorization", out var accessToken);
             if (string.IsNullOrEmpty(accessToken.ToString()))
             {

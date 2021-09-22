@@ -146,7 +146,7 @@ namespace OrderingAPI.Controllers
         private async Task<HttpResponce> HttpApiCall<T>(HttpAttribute HttpMethod, string Url, string JsonRequest = null)
         {
             var res = new HttpResponce();
-            var apiController = new APIController(_logger);
+            var apiController = new APICallController(_logger);
             Request.Headers.TryGetValue("Authorization", out var accessToken);
             if (string.IsNullOrEmpty(accessToken.ToString()))
             {

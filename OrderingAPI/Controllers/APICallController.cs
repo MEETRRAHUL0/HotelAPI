@@ -9,11 +9,11 @@ using static OrderingAPI.Model.Responce;
 
 namespace OrderingAPI.Controllers
 {
-    public class APIController
+    public class APICallController
     {
         private  ILogger _logger;
 
-        public  APIController(ILogger logger)
+        public  APICallController(ILogger logger)
         {
             _logger = logger;
         }
