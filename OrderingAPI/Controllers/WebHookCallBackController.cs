@@ -34,6 +34,7 @@ namespace OrderingAPI.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("StoresAddUpdate")]
+        [Route("StoresAddUpdate2")]
         public IActionResult StoresAddUpdate(StoresCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -333,3 +334,46 @@ namespace OrderingAPI.Controllers
 
     }
 }
+
+
+
+//< div class= "selectize-dropdown-content" >
+// < div data - value = "10005" data - selectable = "" class= "option" > User Feedback </ div >
+//< div data - value = "18" data - selectable = "" class= "option" > Order placed </ div >
+//< div data - value = "60008" data - selectable = "" class= "option" > Order status update</div>
+//<div data-value= "60012" data-selectable= "" class= "option" > Order delivery status</div>
+//<div data-value= "60013" data-selectable= "" class= "option" > Catalogue publish through API</div>
+//<div data-value="60014" data-selectable="" class= "option selected" > Stores create / update </ div >
+//< div data - value = "60015" data - selectable = "" class= "option" > Stores status change</div>
+//<div data-value= "60016" data-selectable= "" class= "option" > Category timing groups create/update</div>
+//<div data-value="12004" data-selectable="" class= "option" > Item Stock In/Out</div>
+//<div data-value="12005" data-selectable="" class= "option" > Option Stock In/Out</div>
+//		<div data-value="60017" data-selectable="" class= "option" > Order Feature Action</div>
+//<div data-value= "80001" data-selectable= "" class= "option" > Comet: Order Placed</div>
+//<div data-value= "12002" data-selectable= "" class= "option" > Hub Menu Publish</div>
+//<div data-value= "60018" data-selectable= "" class= "option" > Order Items OOS Processed</div>
+//</div> -->
+//User feedback	10005
+//Order placed	18
+//Order status update	60008
+//Order delivery status update	60012
+//Catalogue Create/Update through API	60013
+//Store Create/Update through API	60014
+//Store Actions through API	60015
+//Items Actions through API	12004
+//Options Actions through API	12005
+//Category Timing Groups through API	60016
+//Hub Menu Publish	12002
+//Mark Order Items Stock-out	60018
+
+//order_placed:			order placed event.
+//order_status_update:	order state change event.
+//rider_status_update:	rider state change event.
+//inventory_update:		callback url for managing catalogue call.
+//store_creation:			callback url for store creation call.
+//store_action:			event for callback url for Store Actions API call.
+//item_state_toggle:		event for callback url for items actions done through Item/Option - actions API call.
+//catalogue_timing_grp:	event for callback url for Category Timing Groups API.
+//option_state_toggle:	event for callback url for option actions done through Item/Option - actions API call.
+//hub_menu_publish:		event for callback url for menu publish to aggregators.
+//order_items_oos_processed:	event for callback url for mark order item out-of-stock.

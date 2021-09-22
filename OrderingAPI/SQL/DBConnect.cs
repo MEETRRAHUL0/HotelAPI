@@ -1,4 +1,5 @@
-﻿using OrderingAPI.Model;
+﻿using OrderingAPI.Helpers;
+using OrderingAPI.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -32,7 +33,8 @@ namespace OrderingAPI.SQL
            ,[TotalBill]
            ,[Discount]
            ,[DiscountPercentage]
-           ,[NetBIll])
+           ,[NetBIll]
+           ,[OrderStatus])
      VALUES
            (@RefID
            ,@APIKey
@@ -49,27 +51,35 @@ namespace OrderingAPI.SQL
            ,@TotalBill
            ,@Discount
            ,@DiscountPercentage
-           ,@NetBIll)
+           ,@NetBIll
+           ,@OrderStatus)
 ";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.CommandType = CommandType.Text;
                 //cmd.Parameters.AddWithValue("@order", order);
-                cmd.Parameters.AddWithValue("@RefID", order);
-                cmd.Parameters.AddWithValue("@APIKey", order);
-                cmd.Parameters.AddWithValue("@OrderId", order);
-                cmd.Parameters.AddWithValue("@Otp", order);
-                cmd.Parameters.AddWithValue("@OrderDate", order);
-                cmd.Parameters.AddWithValue("@OrderTime", order);
-                cmd.Parameters.AddWithValue("@GuestName", order);
-                cmd.Parameters.AddWithValue("@Phone", order);
-                cmd.Parameters.AddWithValue("@ItemId", order);
-                cmd.Parameters.AddWithValue("@ItemName", order);
-                cmd.Parameters.AddWithValue("@GST", order);
-                cmd.Parameters.AddWithValue("@Qty", order);
-                cmd.Parameters.AddWithValue("@TotalBill", order);
-                cmd.Parameters.AddWithValue("@Discount", order);
-                cmd.Parameters.AddWithValue("@DiscountPercentage", order);
-                cmd.Parameters.AddWithValue("@NetBIll", order);
+                cmd.Parameters.AddWithValue("@RefID", order.order.store.merchant_ref_id);
+                cmd.Parameters.AddWithValue("@OrderId", order.order.details.biz_id);
+
+                cmd.Parameters.AddWithValue("@OrderDate", Helper.UnixTimeStampToDateTime(order.order.details.created).Date);
+                cmd.Parameters.AddWithValue("@OrderTime", Helper.UnixTimeStampToDateTime(order.order.details.created).TimeOfDay);
+
+                cmd.Parameters.AddWithValue("@GuestName", order.customer.name);
+                cmd.Parameters.AddWithValue("@Phone", order.customer.phone);
+                cmd.Parameters.AddWithValue("@GST", order.order.details.total_taxes);
+
+                cmd.Parameters.AddWithValue("@Qty", string.Join(',', order.order.items.Select(q => q.quantity))); // need to check
+                cmd.Parameters.AddWithValue("@ItemId", string.Join(',', order.order.items.Select(q => q.id))); // need to check
+                cmd.Parameters.AddWithValue("@ItemName", string.Join(',', order.order.items.Select(q => q.title))); // need to check
+                cmd.Parameters.AddWithValue("@OrderStatus", order.order.details.order_state);
+
+                cmd.Parameters.AddWithValue("@TotalBill", order.order.details.order_subtotal); // need to check
+                cmd.Parameters.AddWithValue("@NetBIll", order.order.details.order_subtotal); // need to check
+
+                cmd.Parameters.AddWithValue("@Discount", order.order.details.discount);
+
+                cmd.Parameters.AddWithValue("@DiscountPercentage", "");
+                cmd.Parameters.AddWithValue("@APIKey", "");
+                cmd.Parameters.AddWithValue("@Otp", "");
 
                 con.Open();
                 cmd.ExecuteNonQuery();

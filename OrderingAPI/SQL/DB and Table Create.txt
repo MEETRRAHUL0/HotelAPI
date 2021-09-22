@@ -30,6 +30,7 @@ CREATE TABLE [dbo].[Order](
 	[Discount] [nvarchar](50) NULL,
 	[DiscountPercentage] [nvarchar](50) NULL,
 	[NetBIll] [nvarchar](50) NULL,
+	[OrderStatus] [nvarchar](50) NULL,
  CONSTRAINT [PK_Order] PRIMARY KEY CLUSTERED
 (
 	[ID] ASC

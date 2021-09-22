@@ -16,18 +16,18 @@
 
             public object result { get; set; }
         }
-        public class ConfigurationResponce
+        public class ConfigurationResponce : HttpErrorResponce
         {
-            public string status { get; set; }
-            public string message { get; set; }
+            //public string status { get; set; }
+            //public string message { get; set; }
             public string reference { get; set; }
         }
 
         // Put and Post webhook Responce
-        public class WebHookResponce
+        public class WebHookResponce : HttpErrorResponce
         {
-            public string status { get; set; }
-            public string message { get; set; }
+            //public string status { get; set; }
+            //public string message { get; set; }
             public int webhook_id { get; set; }
         }
     }
