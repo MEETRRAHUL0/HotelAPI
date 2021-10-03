@@ -91,13 +91,13 @@ namespace OrderingAPI.Model
         public List<ExtPlatform> ext_platforms { get; set; }
         public int id { get; set; }
         public string instructions { get; set; }
-        public int item_level_total_charges { get; set; }
+        public double item_level_total_charges { get; set; }
         public double item_level_total_taxes { get; set; }
         public double item_taxes { get; set; }
         public string merchant_ref_id { get; set; }
         public object modified_from { get; set; }
         public object modified_to { get; set; }
-        public int order_level_total_charges { get; set; }
+        public double order_level_total_charges { get; set; }
         public int order_level_total_taxes { get; set; }
         public string order_state { get; set; }
         public double order_subtotal { get; set; }
@@ -122,7 +122,7 @@ namespace OrderingAPI.Model
     {
         public int id { get; set; }
         public string merchant_id { get; set; }
-        public int price { get; set; }
+        public double price { get; set; }
         public string title { get; set; }
         public Translations translations { get; set; }
         public double unit_weight { get; set; }

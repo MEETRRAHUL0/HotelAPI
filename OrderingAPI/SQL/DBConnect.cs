@@ -13,7 +13,7 @@ namespace OrderingAPI.SQL
 {
     public class DBConnect
     {
-        SqlConnection con1 = new SqlConnection("Data Source=.;Initial Catalog=Hotel;Integrated Security=True");
+        SqlConnection conStr1 = new SqlConnection("Data Source=.;Initial Catalog=Hotal;Integrated Security=True");
         SqlConnection con2 = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;Persist Security Info=True;User ID=royals");
         SqlConnection conStr = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;Persist Security Info=True;User ID=rest_Pro");
 
@@ -72,8 +72,8 @@ namespace OrderingAPI.SQL
                 cmd.Parameters.AddWithValue("@RefID", order.order.store.merchant_ref_id);
                 cmd.Parameters.AddWithValue("@OrderId", order.order.details.biz_id);
 
-                cmd.Parameters.AddWithValue("@OrderDate", Helper.UnixTimeStampToDateTime(order.order.details.created).Date);
-                cmd.Parameters.AddWithValue("@OrderTime", Helper.UnixTimeStampToDateTime(order.order.details.created).TimeOfDay);
+                cmd.Parameters.AddWithValue("@OrderDate", Helper.UnixTimeStampToDateTime(order.order.details.created.ToString()));
+                cmd.Parameters.AddWithValue("@OrderTime", Helper.UnixTimeStampToDateTime(order.order.details.created.ToString()));
 
                 cmd.Parameters.AddWithValue("@GuestName", order.customer.name);
                 cmd.Parameters.AddWithValue("@Phone", order.customer.phone);

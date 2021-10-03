@@ -26,7 +26,7 @@ CREATE TABLE [dbo].[Order](
 	[ItemId] [nvarchar](100) NULL,
 	[ItemName] [nvarchar](100) NULL,
 	[GST] [nvarchar](100) NULL,
-	[Qty] [int] NULL,
+	[Qty] [nvarchar](100) NULL,
 	[TotalBill] [nvarchar](50) NULL,
 	[Discount] [nvarchar](50) NULL,
 	[DiscountPercentage] [nvarchar](50) NULL,

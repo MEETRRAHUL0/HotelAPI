@@ -600,3 +600,66 @@
 2021-10-03 18:29:50.2725 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
 2021-10-03 18:29:50.3048 Info Configuration initialized.
 2021-10-03 18:29:50.3048 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 18:31:56.8484 Info Message Template Auto Format enabled
+2021-10-03 18:31:56.8854 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 18:31:56.9592 Info Adding target FileTarget(Name=alldata)
+2021-10-03 18:31:56.9592 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 18:31:57.0039 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 18:31:57.0382 Info Configuration initialized.
+2021-10-03 18:31:57.0382 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 18:35:44.8678 Info Message Template Auto Format enabled
+2021-10-03 18:35:44.8950 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 18:35:44.9744 Info Adding target FileTarget(Name=alldata)
+2021-10-03 18:35:44.9744 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 18:35:45.0202 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 18:35:45.0539 Info Configuration initialized.
+2021-10-03 18:35:45.0539 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 18:36:50.0087 Info Message Template Auto Format enabled
+2021-10-03 18:36:50.0387 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 18:36:50.1184 Info Adding target FileTarget(Name=alldata)
+2021-10-03 18:36:50.1184 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 18:36:50.1673 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 18:36:50.2021 Info Configuration initialized.
+2021-10-03 18:36:50.2035 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 18:37:32.1758 Info Message Template Auto Format enabled
+2021-10-03 18:37:32.2181 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 18:37:32.3012 Info Adding target FileTarget(Name=alldata)
+2021-10-03 18:37:32.3012 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 18:37:32.3461 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 18:37:32.3806 Info Configuration initialized.
+2021-10-03 18:37:32.3806 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 18:39:46.5050 Info Message Template Auto Format enabled
+2021-10-03 18:39:46.5395 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 18:39:46.6350 Info Adding target FileTarget(Name=alldata)
+2021-10-03 18:39:46.6350 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 18:39:46.6778 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 18:39:46.7078 Info Configuration initialized.
+2021-10-03 18:39:46.7078 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 19:02:31.2149 Info Message Template Auto Format enabled
+2021-10-03 19:02:31.3121 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 19:02:31.4084 Info Adding target FileTarget(Name=alldata)
+2021-10-03 19:02:31.4084 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 19:02:31.4543 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 19:02:31.4850 Info Configuration initialized.
+2021-10-03 19:02:31.4850 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 19:05:09.0928 Info Message Template Auto Format enabled
+2021-10-03 19:05:09.1285 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 19:05:09.1975 Info Adding target FileTarget(Name=alldata)
+2021-10-03 19:05:09.1975 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 19:05:09.2327 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 19:05:09.2561 Info Configuration initialized.
+2021-10-03 19:05:09.2561 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 19:09:25.5517 Info Message Template Auto Format enabled
+2021-10-03 19:09:25.5823 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 19:09:25.6615 Info Adding target FileTarget(Name=alldata)
+2021-10-03 19:09:25.6615 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 19:09:25.6960 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 19:09:25.7230 Info Configuration initialized.
+2021-10-03 19:09:25.7230 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2021-10-03 19:14:49.6796 Info Message Template Auto Format enabled
+2021-10-03 19:14:49.7178 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-03 19:14:49.8004 Info Adding target FileTarget(Name=alldata)
+2021-10-03 19:14:49.8004 Info Adding target FileTarget(Name=otherFile-web)
+2021-10-03 19:14:49.8540 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\NLog.config
+2021-10-03 19:14:49.8953 Info Configuration initialized.
+2021-10-03 19:14:49.8953 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False

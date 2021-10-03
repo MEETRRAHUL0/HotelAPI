@@ -35,12 +35,20 @@ namespace OrderingAPI.Helpers
             return jsonRequest;
         }
 
-        public static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
+        public static DateTime UnixTimeStampToDateTime(string unixTimeStamp)
         {
+            DateTime dt = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+            double d = double.Parse("1332958778172");  // Or avoid parsing if possible :)
+            Console.Write(dt.AddMilliseconds(d));
+            return dt;
             // Unix timestamp is seconds past epoch
-            DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
-            dateTime = dateTime.AddSeconds(unixTimeStamp).ToLocalTime();
-            return dateTime;
+            //DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+            //dateTime = dateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+            //return dateTime;
+        }
+        public static string epoch2string(double epoch)
+        {
+            return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(epoch).ToShortDateString();
         }
     }
 }
