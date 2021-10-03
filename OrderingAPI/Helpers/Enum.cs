@@ -43,5 +43,6 @@ public enum WebHookEvent
     option_state_toggle,// event for callback url for option actions done through Item/Option - actions API call.
     hub_menu_publish,// event for callback url for menu publish to aggregators.
     order_items_oos_processed,// event for callback url for mark order item out-of-stock
-}
+        comet_order_placed,
+    }
 }

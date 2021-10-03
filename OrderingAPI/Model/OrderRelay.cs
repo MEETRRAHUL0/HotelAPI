@@ -93,7 +93,7 @@ namespace OrderingAPI.Model
         public string instructions { get; set; }
         public int item_level_total_charges { get; set; }
         public double item_level_total_taxes { get; set; }
-        public int item_taxes { get; set; }
+        public double item_taxes { get; set; }
         public string merchant_ref_id { get; set; }
         public object modified_from { get; set; }
         public object modified_to { get; set; }
@@ -139,7 +139,7 @@ namespace OrderingAPI.Model
         public string merchant_id { get; set; }
         public List<OptionsToAdd> options_to_add { get; set; }
         public List<object> options_to_remove { get; set; }
-        public int price { get; set; }
+        public double price { get; set; }
         public int quantity { get; set; }
         public List<Tax> taxes { get; set; }
         public string title { get; set; }

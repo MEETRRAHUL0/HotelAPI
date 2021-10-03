@@ -28,13 +28,13 @@ namespace OrderingAPI.Controllers
         //            Download the current version of ngrok
         //            Register and get a token: https://dashboard.ngrok.com/auth
         //            Run ngrok and set the token with the command: ngrok authtoken YOUR_AUTHTOKEN
-        //            Create a tunnel: ngrok http -host - header = localhost https://localhost:44313
+        //            Create a tunnel: ngrok http -host-header=localhost https://localhost:44321
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPost]
         [Route("StoresAddUpdate")]
-        [Route("StoresAddUpdate2")]
+        //[Route("StoresAddUpdate")]
         public IActionResult StoresAddUpdate(StoresCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -67,6 +67,7 @@ namespace OrderingAPI.Controllers
         }
         [HttpPost]
         [Route("StoreActions")]
+        [Route("StoresStatusChange")]
         public IActionResult StoreActions(StoreActionsCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -99,6 +100,7 @@ namespace OrderingAPI.Controllers
         }
         [HttpPost]
         [Route("CatalogueIngestion")]
+        [Route("CataloguepublishthroughAPI")]
         public IActionResult CatalogueIngestion(CatalogueIngestionCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -131,6 +133,7 @@ namespace OrderingAPI.Controllers
         }
         [HttpPost]
         [Route("CategoryTimingGroup")]
+        [Route("CategoryTimingGroupsCreateUpdate")]
         public IActionResult CategoryTimingGroup(CategoryTimingGroupCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -164,6 +167,7 @@ namespace OrderingAPI.Controllers
 
         [HttpPost]
         [Route("ItemActions")]
+        [Route("ItemStockInOut")]
         public IActionResult ItemActions(ItemActionsCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -197,6 +201,7 @@ namespace OrderingAPI.Controllers
 
         [HttpPost]
         [Route("OptionActions ")]
+        [Route("OptionStockInOut")]
         public IActionResult OptionActions(OptionActionsCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -229,6 +234,7 @@ namespace OrderingAPI.Controllers
         }
 
         [HttpPost]
+        [Route("OrderPlaced")]
         [Route("OrderRelay")]
         public IActionResult OrderRelay(OrderRelayCallBack value)
         {
@@ -251,7 +257,7 @@ namespace OrderingAPI.Controllers
                         _logger.LogInformation($"{actionName} Responce : {res}");
                         _logger.LogInformation($"{actionName} Authorization : {accessToken}");
 
-                        DBConnect dbConnect = new DBConnect();
+                        DBConnect dbConnect = new DBConnect(_logger);
                         dbConnect.AddOrder(value);
                     }
                     catch (Exception Ex)
@@ -266,6 +272,8 @@ namespace OrderingAPI.Controllers
 
         [HttpPost]
         [Route("OrderStatusChange")]
+        [Route("OrderStatusUpdate")]
+        [Route("OrderDeliveryStatus")]
         public IActionResult OrderStatusChange(OrderStatusChangeCallBack value)
         {
             var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
@@ -330,7 +338,38 @@ namespace OrderingAPI.Controllers
             return Ok("Success");
         }
 
+        [HttpPost]
+        [Route("UserFeedback")]
+        public IActionResult UserFeedback(dynamic value)
+        {
+            var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
+            var controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+            //var methodName = System.Reflection.MethodBase.GetCurrentMethod().Name;
 
+            _logger.LogInformation($"{controllerName}Controller.{actionName} method called!!!");
+            var header = JsonConvert.SerializeObject(Request.Headers);
+            Request.Headers.TryGetValue("Authorization", out var accessToken);
+
+            //if (value.order_id > 0)
+            //{
+                System.Threading.ThreadPool.QueueUserWorkItem(wi =>
+                {
+                    try
+                    {
+                        var res = JsonConvert.SerializeObject(value);
+                        _logger.LogInformation($"{actionName} Header : {header}");
+                        _logger.LogInformation($"{actionName} Responce : {res}");
+                        _logger.LogInformation($"{actionName} Authorization : {accessToken}");
+                    }
+                    catch (Exception Ex)
+                    {
+                        _logger.LogInformation($"{actionName} Error : {Ex}");
+                    }
+                });
+            //}
+
+            return Ok("Success");
+        }
 
     }
 }
@@ -338,16 +377,16 @@ namespace OrderingAPI.Controllers
 
 
 //< div class= "selectize-dropdown-content" >
-// < div data - value = "10005" data - selectable = "" class= "option" > User Feedback </ div >
-//< div data - value = "18" data - selectable = "" class= "option" > Order placed </ div >
-//< div data - value = "60008" data - selectable = "" class= "option" > Order status update</div>
-//<div data-value= "60012" data-selectable= "" class= "option" > Order delivery status</div>
-//<div data-value= "60013" data-selectable= "" class= "option" > Catalogue publish through API</div>
-//<div data-value="60014" data-selectable="" class= "option selected" > Stores create / update </ div >
-//< div data - value = "60015" data - selectable = "" class= "option" > Stores status change</div>
-//<div data-value= "60016" data-selectable= "" class= "option" > Category timing groups create/update</div>
-//<div data-value="12004" data-selectable="" class= "option" > Item Stock In/Out</div>
-//<div data-value="12005" data-selectable="" class= "option" > Option Stock In/Out</div>
+// < div data - value = "10005" data - selectable = "" class= "option" > User Feedback </ div >  -- done
+//< div data - value = "18" data - selectable = "" class= "option" > Order placed </ div >    -- done
+//< div data - value = "60008" data - selectable = "" class= "option" > Order status update</div>   -- done
+//<div data-value= "60012" data-selectable= "" class= "option" > Order delivery status</div>  -- done
+//<div data-value= "60013" data-selectable= "" class= "option" > Catalogue publish through API</div>  -- done
+//<div data-value="60014" data-selectable="" class= "option selected" > Stores create / update </ div >  --- done
+//< div data - value = "60015" data - selectable = "" class= "option" > Stores status change</div>  -- done
+//<div data-value= "60016" data-selectable= "" class= "option" > Category timing groups create/update</div>  -- done
+//<div data-value="12004" data-selectable="" class= "option" > Item Stock In/Out</div>  -- done
+//<div data-value="12005" data-selectable="" class= "option" > Option Stock In/Out</div>  -- done
 //		<div data-value="60017" data-selectable="" class= "option" > Order Feature Action</div>
 //<div data-value= "80001" data-selectable= "" class= "option" > Comet: Order Placed</div>
 //<div data-value= "12002" data-selectable= "" class= "option" > Hub Menu Publish</div>

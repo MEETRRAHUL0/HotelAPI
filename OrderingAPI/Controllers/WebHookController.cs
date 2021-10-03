@@ -4,6 +4,7 @@ using OrderingAPI.Helpers;
 using OrderingAPI.Model;
 using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using static OrderingAPI.Model.Responce;
 
@@ -96,8 +97,12 @@ namespace OrderingAPI.Controllers
                                 var baseUri = uri.GetLeftPart(System.UriPartial.Authority);
 
                                 var urlBuilder = new UriBuilder(webhook.url);
+                                var newUri = new Uri(Url);
+                                urlBuilder.Host = newUri.Host;
+                                urlBuilder.Scheme = newUri.Scheme;
 
-                                urlBuilder.Host = Url;
+                                if (uri.Host == newUri.Host && uri.Scheme == newUri.Scheme)
+                                    continue;
 
                                 var req = new WebHookRequest()
                                 {
@@ -113,6 +118,8 @@ namespace OrderingAPI.Controllers
                                 var updateRes = await HttpApiCall<WebHooks>(HttpAttribute.PUT, $"{WebHookURL}/{id}/", Helper.SerializeObject(req));
 
                                 _logger.LogInformation($"{actionName} ID {id} Update responce {updateRes}");
+
+                                Thread.Sleep(1000);
                             }
                             catch (Exception ex)
                             {

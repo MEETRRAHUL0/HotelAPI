@@ -39,7 +39,7 @@ namespace OrderingAPI.Model
     public class WebHook
     {
         public bool active { get; set; }
-        public WebHookEvent event_type { get; set; }
+        public WebHookEvent? event_type { get; set; }
         public string headers { get; set; }
         public string retrial_interval_units { get; set; }
         public string url { get; set; }
