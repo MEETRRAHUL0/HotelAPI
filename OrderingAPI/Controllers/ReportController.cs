@@ -22,11 +22,21 @@ namespace OrderingAPI.Controllers
             _logger = logger;
         }
 
+        [Route("OrderHistory")]
         [HttpGet]
-        public IEnumerable<List<OrderHistory>> Get()
+        public IEnumerable<List<OrderHistory>> OrderHistory()
         {
             DBConnect dbConnect = new DBConnect(_logger);
             var res=  dbConnect.GetOrderHistory();
+            yield return res;
+        }
+
+        [Route("OrderReport")]
+        [HttpGet]
+        public IEnumerable<List<OrderDetails>> OrderDetails()
+        {
+            DBConnect dbConnect = new DBConnect(_logger);
+            var res = dbConnect.GetOrderHistoryNew();
             yield return res;
         }
 

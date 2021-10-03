@@ -157,6 +157,74 @@ namespace OrderingAPI.SQL
             return res;
         }
 
+        public List<OrderDetails> GetOrderHistoryNew()
+        {
+            List<OrderDetails> res = new List<OrderDetails>();
+            try
+            {
+                var sql = @"select * from [dbo].[Order]";
+                using (SqlConnection con = new SqlConnection(conStr.ConnectionString))
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand(sql, con)) //"SELECT description FROM myTable WHERE ID=@ID"
+                    {
+                        //cmd.Parameters.AddWithValue("@ID", myId);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            var count = 1;
+                            while (reader.Read())
+                            {
+                                res.Add(new OrderDetails
+                                {
+                                    SNo = count.ToString(),  //	1
+                                    OrderID = (string)reader["RefID"],  //	3983446300
+                                    OrderDate = (string)reader["RefID"],  //	9/18/2021 11:14
+                                    ResName = (string)reader["RefID"],  //	Royal Bakery
+                                    ResID = (string)reader["RefID"],  //	102322
+                                    Modeofpayment = (string)reader["RefID"],  //	Online
+                                    Orderstatus = (string)reader["RefID"],  //	Delivered
+                                    GrossRevenue = (string)reader["RefID"],  //	441
+                                    ProDiscountShare = (string)reader["RefID"],  //	0
+                                    CustomerCompensation = (string)reader["RefID"],  //	0
+                                    CustomerDiscountAmount = (string)reader["RefID"],  //	0
+                                    CommissionableAmount = (string)reader["RefID"],  //	420
+                                    CommissionPercentage = (string)reader["RefID"],  //	20
+                                    CommissionValue = (string)reader["RefID"],  //	84
+                                    ConvenienceFee = (string)reader["RefID"],  //	8.11
+                                    Piggybank = (string)reader["RefID"],  //	0
+                                    LogisticsCharge = (string)reader["RefID"],  //	0
+                                    PenaltyAmount = (string)reader["RefID"],  //	0
+                                    CreditsCharge = (string)reader["RefID"],  //	0
+                                    CancellationRefund = (string)reader["RefID"],  //	0
+                                    TaxesonZomatofees = (string)reader["RefID"],  //	16.58
+                                    Taxcollectedatsource = (string)reader["RefID"],  //	4.2
+                                    TDSamount = (string)reader["RefID"],  //	4.2
+                                    Amountreceivedincash = (string)reader["RefID"],  //	0
+                                    Creditnoteadjustment = (string)reader["RefID"],  //	0
+                                    Promorecoveryadjustment = (string)reader["RefID"],  //	0
+                                    IcecreamdeductionsHyperpure = (string)reader["RefID"],  //	0
+                                    Icecreamhandlingcharge = (string)reader["RefID"],  //	0
+                                    Supportcostadjustment = (string)reader["RefID"],  //	0
+                                    Totaladjustment = (string)reader["RefID"],  //	0
+                                    Netreceivable = (string)reader["RefID"],  //	323.91
+                                    Settlementstatus = (string)reader["RefID"],  //	pending
+                                    Settlementdate = (string)reader["RefID"],  //
+                                    BankUTR = (string)reader["RefID"],  //
+                                });
+                                count++;
+                            }
+                        }
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error: GetOrderHistory" + ex.Message.ToString());
+            }
+            return res;
+        }
+
         public List<OrderHistory> GetOrderByOrderID(string OrderId)
         {
             List<OrderHistory> res = new List<OrderHistory>();
