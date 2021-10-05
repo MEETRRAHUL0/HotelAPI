@@ -6,14 +6,14 @@ USE [Hotal]
 USE rest_pro
 GO
 
-/****** Object:  Table [dbo].[Order]    Script Date: 9/21/2021 3:41:34 PM ******/
+/****** Object:  Table [dbo].[OrderDetails]    Script Date: 9/21/2021 3:41:34 PM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[Order](
+CREATE TABLE [dbo].[OrderDetails](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 	[RefID] [nvarchar](100) NULL,
 	[APIKey] [nvarchar](100) NULL,

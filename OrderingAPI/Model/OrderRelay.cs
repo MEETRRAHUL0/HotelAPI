@@ -95,8 +95,8 @@ namespace OrderingAPI.Model
         public double item_level_total_taxes { get; set; }
         public double item_taxes { get; set; }
         public string merchant_ref_id { get; set; }
-        public object modified_from { get; set; }
-        public object modified_to { get; set; }
+        public int? modified_from { get; set; }
+        public int? modified_to { get; set; }
         public double order_level_total_charges { get; set; }
         public int order_level_total_taxes { get; set; }
         public string order_state { get; set; }
@@ -145,7 +145,7 @@ namespace OrderingAPI.Model
         public string title { get; set; }
         public double total { get; set; }
         public double total_with_tax { get; set; }
-        public object translations { get; set; }
+        public Translations translations { get; set; }
         public double unit_weight { get; set; }
     }
 

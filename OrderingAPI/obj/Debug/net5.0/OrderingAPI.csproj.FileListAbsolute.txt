@@ -38,3 +38,4 @@ C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\w
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\D Drive\Rahul\OrderingAPI\OrderingAPI\OrderingAPI\bin\Debug\net5.0\Dapper.dll

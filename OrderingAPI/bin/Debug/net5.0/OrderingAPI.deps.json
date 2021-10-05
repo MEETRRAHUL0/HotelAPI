@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "OrderingAPI/1.0.0": {
         "dependencies": {
+          "Dapper": "2.0.90",
           "NLog": "4.7.11",
           "NLog.Web.AspNetCore": "4.14.0",
           "Newtonsoft.Json": "13.0.1",
@@ -319,6 +320,17 @@
         },
         "compile": {
           "OrderingAPI.dll": {}
+        }
+      },
+      "Dapper/2.0.90": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.90.36046"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Dapper.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -2242,6 +2254,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.0.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e4YjOLJptnpwHIbP8HxjaYf7So9lhUC43rvvGMEkH4Q4CiVlm4rOxYDo0HyuHlMQKj0U5Ob/nCMm52TUhTaZQg==",
+      "path": "dapper/2.0.90",
+      "hashPath": "dapper.2.0.90.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
