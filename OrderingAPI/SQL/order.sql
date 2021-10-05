@@ -4,7 +4,7 @@ CREATE TABLE [dbo].[Order](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 
 	customer_phone [nvarchar](100) NULL,
-	customer_address [nvarchar](100) NULL,
+	customer_address [nvarchar](MAX) NULL,
 	customer_email [nvarchar](100) NULL,
 	customer_name [nvarchar](100) NULL,
 

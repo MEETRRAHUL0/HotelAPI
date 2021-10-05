@@ -14,9 +14,10 @@ namespace OrderingAPI.SQL
 {
 	public class DBConnect
 	{
-		SqlConnection conStr = new SqlConnection("Data Source=.;Initial Catalog=Hotal;Integrated Security=True");
-		SqlConnection con2 = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;Persist Security Info=True;User ID=royals");
+		SqlConnection conStr14 = new SqlConnection("Data Source=.;Initial Catalog=Hotal;Integrated Security=True");
+		SqlConnection conStr3 = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;Persist Security Info=True;User ID=royals");
 		SqlConnection conStr1 = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;Persist Security Info=True;User ID=rest_Pro");
+		SqlConnection conStr = new SqlConnection("Data Source=103.228.112.145;Initial Catalog=rest_pro;UID=royals;PWD=Thakur@007;");
 
 
 		private ILogger _logger;
