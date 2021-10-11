@@ -20,6 +20,11 @@ namespace OrderingAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.WriteIndented = true;
+    });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -32,7 +37,7 @@ namespace OrderingAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.IsDevelopment() || env.IsStaging() || env.IsProduction())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
@@ -51,7 +56,7 @@ namespace OrderingAPI
             });
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello There, its Ordering API!, You can check the guide to access me! OR Contact UV Tech Solutions!");
             });
         }
     }
