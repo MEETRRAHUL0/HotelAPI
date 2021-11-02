@@ -29,6 +29,7 @@ namespace OrderingAPI.Controllers
         //            Register and get a token: https://dashboard.ngrok.com/auth
         //            Run ngrok and set the token with the command: ngrok authtoken YOUR_AUTHTOKEN
         //            Create a tunnel: ngrok http -host-header=localhost https://localhost:44321
+        //ngrok http -host-header=localhost https://api.uvtechsolutions.in/
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
@@ -37,36 +38,54 @@ namespace OrderingAPI.Controllers
         //[Route("StoresAddUpdate")]
         public IActionResult StoresAddUpdate(StoresCallBack value)
         {
-            var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
-            var controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
-            //var methodName = System.Reflection.MethodBase.GetCurrentMethod().Name;
+            _logger.LogInformation($"StoresAddUpdate called");
 
-            _logger.LogInformation($"{controllerName}Controller.{actionName} method called!!!");
-            var header = JsonConvert.SerializeObject(Request.Headers);
-            Request.Headers.TryGetValue("Authorization", out var accessToken);
-
-            if (value.reference != null && value.stats != null && value.stores.Count > 0)
+            try
             {
-                System.Threading.ThreadPool.QueueUserWorkItem(wi =>
-                {
-                    try
-                    {
-                        var res = JsonConvert.SerializeObject(value);
-                        _logger.LogInformation($"{actionName} Header : {header}");
-                        _logger.LogInformation($"{actionName} Responce : {res}");
-                        _logger.LogInformation($"{actionName} Authorization : {accessToken}");
-                    }
-                    catch (Exception Ex)
-                    {
-                        _logger.LogInformation($"{actionName} Error : {Ex}");
-                    }
-                });
-            }
+                var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
+                var controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+                //var methodName = System.Reflection.MethodBase.GetCurrentMethod().Name;
 
+                _logger.LogInformation($"{controllerName}Controller.{actionName} method called!!!");
+                var header = JsonConvert.SerializeObject(Request.Headers);
+                Request.Headers.TryGetValue("Authorization", out var accessToken);
+
+                if (value != null && value.stores.Count > 0 )
+                {
+                    System.Threading.ThreadPool.QueueUserWorkItem(wi =>
+                    {
+                        try
+                        {
+                            var res = JsonConvert.SerializeObject(value);
+                            _logger.LogInformation($"{actionName} Header : {header}");
+                            _logger.LogInformation($"{actionName} Responce : {res}");
+                            _logger.LogInformation($"{actionName} Authorization : {accessToken}");
+                        }
+                        catch (Exception Ex)
+                        {
+                            _logger.LogInformation($"{actionName} Error : {Ex}");
+                        }
+                    });
+                }
+                else
+                {
+                    _logger.LogInformation($"method OrderRelay Responce is Empty");
+                }
+            }
+            catch (Exception Ex)
+            {
+                _logger.LogInformation($" Error on method OrderRelay : {Ex}");
+                return Ok("Success");
+            }
+            finally
+            {
+                _logger.LogInformation($" finally call on OrderRelay");
+            }
+            _logger.LogInformation($"StoresAddUpdate completed");
             return Ok("Success");
         }
         [HttpPost]
-        [Route("StoreActions")]
+        //[Route("StoreActions")]
         [Route("StoresStatusChange")]
         public IActionResult StoreActions(StoreActionsCallBack value)
         {
@@ -99,7 +118,7 @@ namespace OrderingAPI.Controllers
             return Ok("Success");
         }
         [HttpPost]
-        [Route("CatalogueIngestion")]
+        //[Route("CatalogueIngestion")]
         [Route("CataloguepublishthroughAPI")]
         public IActionResult CatalogueIngestion(CatalogueIngestionCallBack value)
         {
@@ -132,7 +151,7 @@ namespace OrderingAPI.Controllers
             return Ok("Success");
         }
         [HttpPost]
-        [Route("CategoryTimingGroup")]
+        //[Route("CategoryTimingGroup")]
         [Route("CategoryTimingGroupsCreateUpdate")]
         public IActionResult CategoryTimingGroup(CategoryTimingGroupCallBack value)
         {
@@ -166,7 +185,7 @@ namespace OrderingAPI.Controllers
         }
 
         [HttpPost]
-        [Route("ItemActions")]
+        //[Route("ItemActions")]
         [Route("ItemStockInOut")]
         public IActionResult ItemActions(ItemActionsCallBack value)
         {
@@ -200,7 +219,7 @@ namespace OrderingAPI.Controllers
         }
 
         [HttpPost]
-        [Route("OptionActions ")]
+        //[Route("OptionActions ")]
         [Route("OptionStockInOut")]
         public IActionResult OptionActions(OptionActionsCallBack value)
         {
@@ -234,44 +253,61 @@ namespace OrderingAPI.Controllers
         }
 
         [HttpPost]
-        [Route("OrderPlaced")]
+        //[Route("OrderPlaced")]
         [Route("OrderRelay")]
         public IActionResult OrderRelay(OrderRelayCallBack value)
         {
-            var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
-            var controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
-            //var methodName = System.Reflection.MethodBase.GetCurrentMethod().Name;
-
-            _logger.LogInformation($"{controllerName}Controller.{actionName} method called!!!");
-            var header = JsonConvert.SerializeObject(Request.Headers);
-            Request.Headers.TryGetValue("Authorization", out var accessToken);
-
-            if (value.customer != null)
+            _logger.LogInformation($"OrderRelay called");
+            try
             {
-                System.Threading.ThreadPool.QueueUserWorkItem(wi =>
+                var actionName = this.ControllerContext.RouteData.Values["action"].ToString();
+                var controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+                //var methodName = System.Reflection.MethodBase.GetCurrentMethod().Name;
+
+                _logger.LogInformation($"{controllerName}Controller.{actionName} method called!!!");
+                var header = JsonConvert.SerializeObject(Request.Headers);
+                Request.Headers.TryGetValue("Authorization", out var accessToken);
+
+                if (value != null)
                 {
-                    try
+                    System.Threading.ThreadPool.QueueUserWorkItem(wi =>
                     {
-                        var res = JsonConvert.SerializeObject(value);
-                        _logger.LogInformation($"{actionName} Header : {header}");
-                        _logger.LogInformation($"{actionName} Responce : {res}");
-                        _logger.LogInformation($"{actionName} Authorization : {accessToken}");
+                        try
+                        {
+                            var res = JsonConvert.SerializeObject(value);
+                            _logger.LogInformation($"{actionName} Header : {header}");
+                            _logger.LogInformation($"{actionName} Responce : {res}");
+                            _logger.LogInformation($"{actionName} Authorization : {accessToken}");
 
-                        DBConnect dbConnect = new DBConnect(_logger);
-                        dbConnect.AddOrder(value);
-                    }
-                    catch (Exception Ex)
-                    {
-                        _logger.LogInformation($"{actionName} Error : {Ex}");
-                    }
-                });
+                            DBConnect dbConnect = new DBConnect(_logger);
+                            dbConnect.AddOrder(value);
+                        }
+                        catch (Exception Ex)
+                        {
+                            _logger.LogInformation($"{actionName} Error : {Ex}");
+                        }
+                    });
+                }
+                else
+                {
+                    _logger.LogInformation($"method OrderRelay Responce is Empty");
+                }
             }
-
+            catch (Exception Ex)
+            {
+                _logger.LogInformation($" Error on method OrderRelay : {Ex}");
+                return Ok("Success");
+            }
+            finally
+            {
+                _logger.LogInformation($" finally call on OrderRelay");
+            }
+            _logger.LogInformation($"OrderRelay called");
             return Ok("Success");
         }
 
         [HttpPost]
-        [Route("OrderStatusChange")]
+        //[Route("OrderStatusChange")]
         [Route("OrderStatusUpdate")]
         [Route("OrderDeliveryStatus")]
         public IActionResult OrderStatusChange(OrderStatusChangeCallBack value)

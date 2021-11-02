@@ -90,27 +90,30 @@ namespace OrderingAPI.Controllers
 
                                 var id = webhook.webhook_id;
                                 var h = webhook.headers;
-                                var uri = new Uri(webhook.url);
-                                string host = uri.Host;
-                                string scheme = uri.Scheme;
-                                int port = uri.Port;
-                                var baseUri = uri.GetLeftPart(System.UriPartial.Authority);
+                                //var uri = new Uri(webhook.url);
 
-                                var urlBuilder = new UriBuilder(webhook.url);
+                                //string host = uri.Host;
+                                //string scheme = uri.Scheme;
+                                //int port = uri.Port;
+                                //var baseUri = uri.GetLeftPart(System.UriPartial.Authority);
+
                                 var newUri = new Uri(Url);
-                                urlBuilder.Host = newUri.Host;
-                                urlBuilder.Scheme = newUri.Scheme;
+                                var ExistingUrl = new UriBuilder(webhook.url);
 
-                                if (uri.Host == newUri.Host && uri.Scheme == newUri.Scheme)
+                                if (newUri.IsAbsoluteUri && ExistingUrl.Host == newUri.Host && ExistingUrl.Scheme == newUri.Scheme)
                                     continue;
+
+                                ExistingUrl.Host = newUri.Host;
+                                ExistingUrl.Scheme = newUri.Scheme;
+                                ExistingUrl.Port = -1;
 
                                 var req = new WebHookRequest()
                                 {
                                     active = true,
                                     event_type = webhook.event_type.ToString(),
-                                    headers = new Headers() { ContentType = "application/json", x_api_token = "4trgfdsfd243tg54342rewfcef" },
+                                    //headers = new Headers() { ContentType = "application/json", x_api_token = "4trgfdsfd243tg54342rewfcef" },
                                     retrial_interval_units = "seconds",
-                                    url= urlBuilder.Uri.ToString()
+                                    url= ExistingUrl.Uri.ToString(),
                                     //url = $"{Url}/api/WebHookCallBack/{callBackMethod}"
                                     //https://2748-106-203-216-58.ngrok.io/api/WebHookCallBack/StoresAddUpdate"
                                 };

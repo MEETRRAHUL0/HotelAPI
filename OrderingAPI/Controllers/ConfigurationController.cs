@@ -105,6 +105,18 @@ namespace OrderingAPI.Controllers
             return await PostApi_HttpClient($"{URL}/hub/api/v1/items/", Helper.SerializeObject(itemRequest));
         }
 
+        //[ApiExplorerSettings(IgnoreApi = true)]
+        //[HttpPost]
+        //[Route("checkCall")]
+        //public async Task<IActionResult> checkCall(string url,  OrderRelayCallBack value)
+        //{
+        //    var t = WebHookEvent.catalogue_timing_grp;
+        //    _logger.LogInformation($"HomeController.Stores Method");
+        //    //var url = "";
+        //    //var req = "";
+        //    return await PostApi_HttpClient(url, Helper.SerializeObject(value));
+        //}
+
         #region API Call -
 
         // TODO - Move this to commoun file
@@ -147,8 +159,9 @@ namespace OrderingAPI.Controllers
 
             if (string.IsNullOrEmpty(accessToken) || !accessToken.ToString().Contains("apikey"))
             {
+                Request.Headers.Add("Authorization", accessToken_);
                 _logger.LogInformation($"Error:Apikey not found");
-                return BadRequest("Apikey not found.");
+                //return BadRequest("Apikey not found.");
             }
 
             StringContent data = new StringContent(JsonRequest, Encoding.UTF8, "application/json");
@@ -159,11 +172,18 @@ namespace OrderingAPI.Controllers
             //string result = await res.Content.ReadAsStringAsync();
             //client.Dispose();
 
-            using (var httpClient = new HttpClient())
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+
+            // Pass the handler to httpclient(from you are calling api)
+           // HttpClient client = new HttpClient(clientHandler);
+
+            using (var httpClient = new HttpClient(clientHandler))
             {
-                httpClient.DefaultRequestHeaders.Add("Authorization", accessToken.ToString());
+                httpClient.DefaultRequestHeaders.Add("Authorization", accessToken_.ToString());
                 try
                 {
+                    var response2 = await httpClient.PostAsync(Url, data);
                     using (var response = await httpClient.PostAsync(Url, data))
                     {
                         if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -189,5 +209,6 @@ namespace OrderingAPI.Controllers
         }
 
         #endregion API Call -
+
     }
 }
